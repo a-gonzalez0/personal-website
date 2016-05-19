@@ -1,0 +1,43 @@
+/* Layout */
+.center-align {
+	text-align:				center !important;
+}
+
+.left-align {
+	text-align:				left !important;
+}
+
+.right-align {
+	text-align: 			right !important;
+}
+
+.justify-center {
+	display:				flex;
+	justify-content:		center;
+}
+
+.justify-left {
+	display:				flex;
+	justify-content:		left;
+}
+
+.justify-right {
+	display:				flex;
+	justify-content:		right;
+}
+
+.float-left {
+	float:					left !important;
+}
+
+.float-right {
+	float:					right !important;
+}
+
+.margin-left {
+	margin-left: 			16px !important;
+}
+
+.margin-right {
+	margin-right:			16px !important;
+}
