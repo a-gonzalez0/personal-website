@@ -3,6 +3,8 @@ var main = function() {
         $('.dropdown-menu').toggle();
     });
     
+    document.getElementById("contactBtn").disabled = true;
+    
     $('.arrow-next').click(function() {
         var currentSlide = $('.active-slide');
         var nextSlide = currentSlide.next();
@@ -75,5 +77,9 @@ $(document).click(function (event) {
         $navbar.collapse('hide');
     }
 });
+
+function enableBtn(){
+    document.getElementById("contactBtn").disabled = false;
+}
 
 $(document).ready(main);
