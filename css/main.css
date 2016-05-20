@@ -134,7 +134,8 @@ h4 {
 }
 
 .g-recaptcha {
-	margin:				0 auto;
+    	transform:			scale(0.77);
+    	transform-origin:		0 0;
 }
 
 /* Footer */
