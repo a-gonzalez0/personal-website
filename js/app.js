@@ -43,11 +43,11 @@ var main = function() {
 };
 
 function enableBtn() {
-    $('contactBtn').set('disabled', false);
+    $('submitBtn').set('disabled', false);
 }
 
 function disableBtn() {
-    $('contactBtn').set('disabled', true);
+    $('submitBtn').set('disabled', true);
 }
 
 window.addEvent('domready', function(){
