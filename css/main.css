@@ -133,6 +133,11 @@ h4 {
 	padding-top:			50px;
 }
 
+.g-recaptcha {
+	margin:				0 auto;
+	display:			table;
+}
+
 /* Footer */
 footer {
 	position:			relative;
