@@ -42,18 +42,6 @@ var main = function() {
     });
 };
 
-function enableBtn() {
-    $('submitBtn').set('disabled', false);
-}
-
-function disableBtn() {
-    $('submitBtn').set('disabled', true);
-}
-
-window.addEvent('domready', function(){
-    disableBtn();
-});
-
 $(document).ready(function(){
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});   
