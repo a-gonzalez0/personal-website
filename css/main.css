@@ -79,7 +79,7 @@ h4 {
 
 #skills {
 	padding:			50px 0 100px 0;
-	background-color: 		#311B92;
+	background-color: 		#fff;
 }
 
 #skills h4 {
@@ -103,7 +103,7 @@ h4 {
 #projects {
 	padding-top:			50px;
 	height:				100%;
-	background-color: 		#311B92;
+	background-color: 		#fff;
 }
 
 #projects h2 {
@@ -121,7 +121,7 @@ h4 {
 #contact {
 	padding-top:			50px; 
 	height:				100%;
-	background-color: 		#311B92;
+	background-color: 		#fff;
 }
 
 .form-group {
