@@ -156,37 +156,40 @@
 		<div id="contact" class="container">
 			<h2>Contact</h2>
 			<form class="form" action="action_page.php" method="post" target="_blank" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
-				<div class="row">
-					<div class="form-group">
-						<div class="col-xs-12 col-sm-3">
-							<input type="firstname" class="form-control" id="firstname" required="required" placeholder="First Name">
+				<fieldset>
+    					<legend>Personal information:</legend>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-xs-12 col-sm-3">
+								<input type="firstname" class="form-control" id="firstname" required="required" placeholder="First Name">
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<input type="lastname" class="form-control" id="lastname" required="required" placeholder="Last Name">
+							</div>
 						</div>
-						<div class="col-xs-12 col-sm-3">
-							<input type="lastname" class="form-control" id="lastname" required="required" placeholder="Last Name">
+						<div class="form-group">
+							<div class="col-xs-12 col-sm-3">
+								<input type="email" class="form-control" id="email" required="required" placeholder="Email">
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<input type="phone" class="form-control" id="phone" placeholder="Phone">
+							</div>
+						</div>
+						<div class="form-group">
+		 					<div class="col-xs-12 col-sm-6">
+								<textarea class="form-control" rows="6" id="comment" required="required" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-xs-12 col-sm-6">
+								<div class="g-recaptcha" data-sitekey="6LfVVRwTAAAAABzcfBq98YgxCuCQWqP-agQgiKiH" data-callback="enableBtn" data-expired-callback="disableBtn"></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12">
+							<input class="btn btn-default center-block" type="submit" name="contactBtn">
 						</div>
 					</div>
-					<div class="form-group">
-						<div class="col-xs-12 col-sm-3">
-							<input type="email" class="form-control" id="email" required="required" placeholder="Email">
-						</div>
-						<div class="col-xs-12 col-sm-3">
-							<input type="phone" class="form-control" id="phone" placeholder="Phone">
-						</div>
-					</div>
-					<div class="form-group">
-		 				<div class="col-xs-12 col-sm-6">
-							<textarea class="form-control" rows="6" id="comment" required="required" placeholder="Message"></textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-12 col-sm-6">
-							<div class="g-recaptcha" data-sitekey="6LfVVRwTAAAAABzcfBq98YgxCuCQWqP-agQgiKiH" data-callback="enableBtn" data-expired-callback="disableBtn"></div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12">
-						<input class="btn btn-default center-block" type="submit" name="contactBtn">
-					</div>
-				</div>
+				</fieldset>
 			</form>
 		</div>
   
