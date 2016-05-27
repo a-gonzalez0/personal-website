@@ -37,4 +37,4 @@
 * Bug Fixes
 * Maintenance
 
-**Credits: Webociti @ youtube**
+**Credits:** www.webociti.com
