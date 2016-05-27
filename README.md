@@ -3,36 +3,36 @@
 Web Development & Design Life Cycle
 
 **Phase 1: Analysis**
-    *Purpose
-    *Goal
-    *Target Audience
+* Purpose
+* Goal
+* Target Audience
 
 **Phase 2: Planning**
-    *Sitemap
-    *Structure
-    *Technologies Used
+* Sitemap
+* Structure
+* Technologies Used
 
 **Phase 3: Design**
-    *Wireframe Models
-    *Visual Styles
-    *Usability, UI, UX
+* Wireframe Models
+* Visual Styles
+* Usability, UI, UX
 
 **Phase 4: Content**
-    *Copywriting
-    *Photos & Videos
-    *Search Engine Optimization (SEO)
+* Copywriting
+* Photos & Videos
+* Search Engine Optimization (SEO)
 
 **Phase 5: Development**
-    *HTML & CSS Coding
-    *Databases
-    *Responsive Design
+* HTML & CSS Coding
+* Databases
+* Responsive Design
 
 **Phase 6: Testing**
-    *Technical Testing
-    *Browser Compatibility
-    *"Does it fulfill its purpose?"
+* Technical Testing
+* Browser Compatibility
+* "Does it fulfill its purpose?"
 
 **Phase 7: Deployment**
-    *Monitoring
-    *Bug Fixes
-    *Maintenance
+* Monitoring
+* Bug Fixes
+* Maintenance
