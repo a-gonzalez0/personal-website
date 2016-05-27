@@ -1,6 +1,6 @@
 # Personal Website
 
-Web Development & Design Life Cycle
+## Website Design & Development Process
 
 **Phase 1: Analysis**
 * Purpose
@@ -36,3 +36,5 @@ Web Development & Design Life Cycle
 * Monitoring
 * Bug Fixes
 * Maintenance
+
+**Credits: Webociti @ youtube**
