@@ -69,6 +69,7 @@ h4 {
     	display: 			flex;
     	justify-content: 		center;
     	height:				auto;
+    	background-color:		#f8f8f8;
 }
 
 #about p {
