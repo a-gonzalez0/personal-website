@@ -13,6 +13,7 @@ body {
 	font-family:			'Roboto', sans-serif;
 	overflow-y: 			scroll;
 	overflow-x: 			hidden;
+	background-color:		#f8f8f8;
 }
 
 h2 {
