@@ -96,6 +96,7 @@ h4 {
 
 #skills p {
 	text-align: 			left;
+	display:			block;
 	margin-left: 			auto;
 	margin-right: 			auto;
 }
