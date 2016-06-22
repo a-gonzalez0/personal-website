@@ -169,3 +169,10 @@ footer ul {
 .modal-content {
   height: 99%;
 }
+
+body.modal-open{
+    width:100%!important;
+    padding-right:0!important;
+    overflow-y:scroll!important;
+    position:fixed!important;
+}
