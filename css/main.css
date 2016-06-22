@@ -160,13 +160,13 @@ footer ul {
 
 .modal-dialog {
   width: 75%;
-  height: 25%;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .modal-content {
-  height: auto;
+  height: 25%;
   min-height: 100%;
   border-radius: 0;
 }
