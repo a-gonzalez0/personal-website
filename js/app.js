@@ -67,6 +67,13 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function () {
+        $('#myModal').on('show.bs.modal', function (e) {
+            var image = $(e.relatedTarget).attr('src');
+            $(".img-responsive").attr("src", image);
+        });
+});
+
 $(document).click(function (event) {
     var clickover = $(event.target);
     var $navbar = $(".navbar-collapse");               
