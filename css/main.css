@@ -172,6 +172,6 @@ footer ul {
 
 .modal-open{
     width:100%!important;
-    padding-right:0!important;
     overflow-y:hidden!important;
+    padding-right:0!important;
 }
