@@ -170,7 +170,7 @@ footer ul {
   height: 99%;
 }
 
-.modal-open{
+body.modal-open{
     position: relative;
     padding-right:0!important;
     overflow-y:hidden!important;
