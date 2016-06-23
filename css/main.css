@@ -171,6 +171,6 @@ footer ul {
 }
 
 .modal-open{
-    padding-right:0!important;
+    padding-left:15!important;
     overflow-y:hidden!important;
 }
