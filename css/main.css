@@ -173,6 +173,5 @@ footer ul {
 body.modal-open{
     width: 100%;
     padding-right:0!important;
-    overflow-y:hidden!important;
-    position: absolute;
+    overflow-y:scroll!important;
 }
