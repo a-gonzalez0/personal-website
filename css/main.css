@@ -13,6 +13,7 @@ body {
 	font-family:		'Roboto', sans-serif;
 	overflow-y: 		auto;
 	overflow-x: 		hidden;
+	background-color:	#212121;
 }
 
 h2 {
@@ -74,10 +75,6 @@ h4 {
     justify-content: 	center;
     height:				auto;
     background-color:		#212121;
-}
-
-body#about {
-	background-color:	#212121;
 }
 
 #about p {
