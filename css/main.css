@@ -29,7 +29,7 @@ h2:after {
   	flex-grow: 			1;
   	height: 			1px;
   	content: 			'\a0';
-  	background-color: 		#ddd;
+  	background-color: 		#555;
   	position: 			relative;
   	top: 				0.6em;
 }
