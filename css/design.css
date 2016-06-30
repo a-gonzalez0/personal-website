@@ -20,13 +20,13 @@
 .card-lg {
     box-shadow:			0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) !important;
     border-radius:		6px;
-    background-color:		#fff;
+    background-color:		#424242;
 }
 
 .card-xl {
     box-shadow:			0 16px 24px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21) !important;
     border-radius:		6px;
-    background-color: 		#fff;
+    background-color: 		#424242;
 }
 
 /* Scrollbar */
