@@ -139,6 +139,11 @@ h4 {
 	padding-top:		50px;
 }
 
+input, textarea {
+    background-color:		#666;
+    color: 			#fff;
+}
+
 /* Footer */
 footer {
 	bottom:				0;
