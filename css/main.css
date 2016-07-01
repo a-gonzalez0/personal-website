@@ -167,21 +167,3 @@ footer ul {
 	display:			flex; 
 	justify-content:	flex-end;
 }
-
-.modal-dialog {
-    width:              75%;
-    height:             92%;
-    padding:            0;
-    margin-left:        auto;
-    margin-right:	    auto;
-}
-
-.modal-content {
-    height:             99%;
-}
-
-body.modal-open{
-    width:              100%;
-    padding-right:      0!important;
-    overflow-y:         scroll!important;
-}
