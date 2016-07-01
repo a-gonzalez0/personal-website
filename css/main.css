@@ -142,6 +142,7 @@ h4 {
 #firstname, #lastname, #email, #phone, #comment {
     background-color:	#222;
     color: 			    #fff;
+    border-color:	#525252;
 }
 
 /* Footer */
