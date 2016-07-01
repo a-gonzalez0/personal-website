@@ -139,7 +139,7 @@ h4 {
 	padding-top:		50px;
 }
 
-input, textarea {
+#firstname, #lastname, #email, #phone, #comment {
     background-color:	#666;
     color: 			    #fff;
 }
