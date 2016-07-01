@@ -22,7 +22,7 @@ h2 {
   	display: 			flex;
   	flex-direction: 	row;
   	justify-content: 	center;
-  	color:			#fff;
+  	color:			    #fff;
 }
 
 h2:before, 
@@ -30,7 +30,7 @@ h2:after {
   	flex-grow: 			1;
   	height: 			1px;
   	content: 			'\a0';
-  	background-color: 		#555;
+  	background-color: 	#555;
   	position: 			relative;
   	top: 				0.6em;
 }
@@ -91,7 +91,7 @@ h4 {
 #skills h4 {
 	padding-top:		50px;
 	font-weight:		600;
-	color:			#fff;
+	color:			    #fff;
 }
 
 #skills img {
@@ -105,7 +105,7 @@ h4 {
 	text-align: 		left;
 	margin-left: 		10px;
 	margin-right: 		10px;
-	color:			#bcbcbc;
+	color:			    #bcbcbc;
 }
 
 #projects {
@@ -140,8 +140,8 @@ h4 {
 }
 
 input, textarea {
-    background-color:		#666;
-    color: 			#fff;
+    background-color:	#666;
+    color: 			    #fff;
 }
 
 /* Footer */
