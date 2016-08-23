@@ -147,7 +147,7 @@
 		
 		<div id="contact" class="container">
 			<h2>Contact</h2>
-			<form class="form" method="post" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate action="action_page.php">
+			<form class="form" method="post" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 				<fieldset>
 					<div class="row">
 						<div class="form-group">
