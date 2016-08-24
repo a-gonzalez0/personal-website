@@ -47,6 +47,63 @@
   	</head>
   
   	<body>
+  		<?php
+            // define variables and set to empty values
+            $fnameErr = $lnameErr = $emailErr = $phoneErr = "";
+            $fname = $lname = $email = $phone = $comment = "";
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                if (empty($_POST["fname"])) {
+                    $fnameErr = "First name is required";
+                } else {
+                    $fname = test_input($_POST["fname"]);
+                // check if name only contains letters and whitespace
+                if (!preg_match("/^[a-zA-Z ]*$/",$fname)) {
+                    $fnameErr = "Only letters and white space allowed"; 
+                }
+            
+                if (empty($_POST["lname"])) {
+                    $lnameErr = "Last name is required";
+                } else {
+                    $lname = test_input($_POST["lname"]);
+                // check if name only contains letters and whitespace
+                if (!preg_match("/^[a-zA-Z ]*$/",$lname)) {
+                    $lnameErr = "Only letters and white space allowed"; 
+                }
+            
+                if (empty($_POST["email"])) {
+                    $emailErr = "Email is required";
+                } else {
+                    $email = test_input($_POST["email"]);
+                // check if e-mail address is well-formed
+                if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $emailErr = "Invalid email format"; 
+                }
+    
+                if (empty($_POST["phone"])) {
+                    $phone = "";
+                } else {
+                    $phone = test_input($_POST["phone"]);
+                // check if phone syntax is valid (this regular expression also allows dashes in the field)
+                if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$phone)) {
+                    $phoneErr = "Invalid number"; 
+                }
+
+                if (empty($_POST["comment"])) {
+                    $comment = "";
+                } else {
+                    $comment = test_input($_POST["comment"]);
+                }
+            }
+
+            function test_input($data) {
+                $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data);
+                return $data;
+            }
+        ?>
+
   		<!-- Fixed Navbar -->
   		<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
     		<div class="container">
@@ -155,7 +212,7 @@
 								<input type="text" name="fname" class="form-control" id="firstname" required="required" placeholder="First Name">
 							</div>
 							<div class="col-xs-12 col-sm-3">
-								<input type="text" class="form-control" id="lastname" required="required" placeholder="Last Name">
+								<input type="text" name="lname" class="form-control" id="lastname" required="required" placeholder="Last Name">
 							</div>
 						</div>
 						<div class="form-group">
