@@ -71,7 +71,7 @@ h4 {
 }
 
 #about {
-    padding:			150px 0;
+    padding:			70px 0;
     display: 			flex;
     justify-content: 	center;
     height:				auto;
@@ -84,7 +84,7 @@ h4 {
 }
 
 #skills {
-	padding:			20px;
+	padding:			70px 0;
 }
 
 #skills h4 {
@@ -109,7 +109,7 @@ h4 {
 }
 
 #projects {
-	padding-top:		50px;
+	padding:		70px 0;
 	height:				100%;
 }
 
@@ -126,7 +126,7 @@ h4 {
 }
 
 #contact {
-	padding-top:		50px; 
+	padding:		70px 0; 
 	height:				100%;
 }
 
@@ -136,7 +136,7 @@ h4 {
 }
 
 .form {
-	padding-top:		50px;
+	padding:		70px 0;
 }
 
 #firstname, #lastname, #email, #phone, #comment {
