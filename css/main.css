@@ -139,10 +139,10 @@ p {
 	height:				100%;
 }
 
-.form-group {
-	display:			flex;
+/* .form-group {
+	display:		flex;
 	justify-content: 	center;
-}
+} */
 
 .form {
 	padding:		70px 0;
