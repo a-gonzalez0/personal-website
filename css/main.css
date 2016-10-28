@@ -1,19 +1,19 @@
 html {
-  	min-height: 		100%;
+    min-height: 100%;
 }
 
 html, body {
-    height: 			100%;
-	padding: 			0px;
-	margin: 			0px;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-	font-family:		'Roboto', sans-serif;
-	overflow-y: 		auto;
-	overflow-x: 		hidden;
-	background-color: 	#303030;
-	background-image: 	url("../img/black-orchid.png");
+    font-family: 'Roboto', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #303030;
+    background-image: url("../img/black-orchid.png");
 }
 
 h2 {
@@ -35,19 +35,19 @@ h2:after {
 }
 
 h2:before {
-  	margin-right:		10px;
+    margin-right: 10px;
 }
 
 h2:after {
-  	margin-left:		10px;
+    margin-left: 10px;
 }
 
 h3 {
-	font-family: 		'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h4 {
-	text-align:			center;
+    text-align: center;
 }
 
 p {
@@ -123,56 +123,55 @@ p {
 }
 
 #projects h2 {
-	padding-bottom:		50px;
+    padding-bottom: 50px;
 }
 
 #projects .col-sm-4 {
-	padding:			0;
+    padding: 0;
 }
 
 #projects img {
-	padding:			5px;
+    padding: 5px;
 }
 
 #contact {
-	padding:		70px 0; 
-	height:				100%;
+    padding: 70px 0; 
+    height: 100%;
 }
 
-/* .form-group {
-	display:		flex;
-	justify-content: 	center;
-} */
+.form-group {
+    display: flex;
+    justify-content: center;
+}
 
 .form {
-	padding:		70px 0;
+    padding: 70px 0;
 }
 
 #firstname, #lastname, #email, #phone, #comment {
-    background-color:	#222;
-    color: 			    #fff;
-    border-color:	#525252;
+    background-color: #222;
+    color: #fff;
+    border-color: #525252;
 }
 
 /* Footer */
 .footer {
-	
-	background-color:	#000;
-	width:				100%;
-	/* Set the fixed height of the footer here */
-  	height: 			50px;
-  	padding-top:		15px;
+    background-color: #000;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    padding-top: 15px;
 }
 
 .footer p {
-	font-size: 			12px;
-	color:				#fff;
-	display:			flex;
-	justify-content:	flex-start;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .footer ul {
-	list-style: 		none;
-	display:			flex; 
-	justify-content:	flex-end;
+    list-style: none;
+    display: flex; 
+    justify-content: flex-end;
 }
