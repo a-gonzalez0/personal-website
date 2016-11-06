@@ -16,152 +16,194 @@ body {
     background-image: url("../img/black-orchid.png");
 }
 
-h2 {
-	text-align:			center;
-  	display: 			flex;
-  	flex-direction: 	row;
-  	justify-content: 	center;
-  	color:			    #fff;
+/* Header */
+.navbar-inverse {
+	background-color: #212121;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #00e5ff;
+	background-color: transparent;
+}
+
+.navbar-brand > img {
+	width: 50px;
+}
+
+.navbar-brand {
+	font-size: 11px;
+	color: #ffffff;
+	margin: -15px 0;
+}
+
+.navbar-brand .name {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-brand .title {
+	margin-top: 2px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-fixed-top {
+  	position: fixed;
+  	right: 0;
+  	left: 0;
+  	z-index: 1030;
+
+  	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
+}
+
+h2 {
+	text-align:				center;
+  	display: 				flex;
+  	flex-direction: 		row;
+  	justify-content: 		center;
+ }
 
 h2:before, 
 h2:after {
-  	flex-grow: 			1;
-  	height: 			1px;
-  	content: 			'\a0';
-  	background-color: 	#555;
-  	position: 			relative;
-  	top: 				0.6em;
+  	flex-grow: 				1;
+  	height: 				1px;
+  	content: 				'\a0';
+  	background-color: 		#ddd;
+  	position: 				relative;
+  	top: 					0.6em;
 }
 
 h2:before {
-    margin-right: 10px;
+  	margin-right:			10px;
 }
 
 h2:after {
-    margin-left: 10px;
-}
-
-h3 {
-    font-family: 'Lato', sans-serif;
+  	margin-left:			10px;
 }
 
 h4 {
-    text-align: center;
+	text-align:				center;
 }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('../img/background.jpg');
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    overflow: hidden;
+    background-image: 		linear-gradient(rgba(49, 27, 146, 0.60), rgba(49, 27, 146, 0.60)), url('C:/Users/a_gon/Desktop/Development/Web Development/Portfolio/img/background.jpg');
+    width: 				    100%;
+    height: 				100%;
+    background-size: 		cover;
+    overflow: 				hidden;
 }
 
 /* Pages */
 #home {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #ddd;
+	height: 				100%;
+	width:					100%;
+	display:				flex;
+    align-items: 			center;
+    justify-content: 		center;
+
+    text-align:  			center;
+	color:					#fff;
 }
 
 #about {
-    padding: 70px 0;
-    display: flex;
-    justify-content: center;
-    height: auto;
+	padding:				150px 0;
+	display: 				flex;
+    justify-content: 		center;
+    height:					auto;
 }
 
 #about p {
-    font-size: 18px;
-    color: #bcbcbc;
-    font-weight: 300;
+	font-size:				18px;
+	color:					#000;
+	font-weight: 			300;
 }
 
 #skills {
-    padding: 70px 0;
+	padding:				50px 0 100px 0;
+	background-color: 		#fff;
 }
 
 #skills h4 {
-    padding-top: 50px;
-    font-weight: 600;
-    color: #fff;
+	padding-top:			50px;
+	font-weight:			600;
 }
 
 #skills img {
-    padding: 25px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
+	padding:				25px 0;
+	display:				block;
+	margin-left:  			auto;
+	margin-right:			auto;
 }
 
 #skills p {
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #bcbcbc;
+	margin-left: 			auto;
+	margin-right: 			auto;
+	text-align: 			center;
 }
 
 #projects {
-    padding: 70px 0;
-    height:	100%;
+	padding-top:			50px;
+	height:					100%;
+	background-color: 		#fff;
 }
 
 #projects h2 {
-    padding-bottom: 50px;
+	padding-bottom:			50px;
 }
 
 #projects .col-sm-4 {
-    padding: 0;
+	padding:				0;
 }
 
 #projects img {
-    padding: 5px;
+	padding:				5px;
 }
 
 #contact {
-    padding: 70px 0; 
-    height: 100%;
+	padding-top:			50px; 
+	height:					100%;
+	background-color: 		#fff;
 }
 
-/* .form-group {
-    display: flex;
-    justify-content: center;
-} */
+.form-group {
+	display:				flex;
+	justify-content: 		center;
+}
 
 .form {
-    padding: 70px 0;
-}
-
-#firstname, #lastname, #email, #phone, #comment {
-    background-color: #222;
-    color: #fff;
-    border-color: #525252;
+	padding-top:			50px;
 }
 
 /* Footer */
-.footer {
-    background-color: #000;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 50px;
-    padding-top: 15px;
+footer {
+	position:				relative;
+	bottom:					0;
+	background-color:		#212121;
+	width:					100%;
+	/* Set the fixed height of the footer here */
+  	height: 				50px;
+  	padding-top:			15px;
 }
 
-.footer p {
-    font-size: 12px;
-    color: #fff;
-    display: flex;
-    justify-content: flex-start;
+footer p {
+	font-size: 				12px;
+	color:					#ffffff;
+	display:				flex;
+	justify-content:		flex-start;
 }
 
-.footer ul {
-    list-style: none;
-    display: flex; 
-    justify-content: flex-end;
+footer ul {
+	list-style: 			none;
+	display:				flex; 
+	justify-content:		flex-end;
+}
+
+footer img {
+	width:					16px;
 }
