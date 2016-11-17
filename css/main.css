@@ -212,6 +212,7 @@ h4 {
 }
 
 .footer ul {
+    padding: 20px 0;
     list-style: none;
     display: flex; 
     justify-content: center;
