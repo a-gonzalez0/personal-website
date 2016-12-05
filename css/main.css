@@ -3,20 +3,24 @@ html {
   min-height: 100%;
 }
 
-html, body {
+/* html, body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-}
+} */
 
 body {
-    font-family: "ff-good-headline-web-pro-con-n4","ff-good-headline-web-pro-con",sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: #303030;
-    background-image: url("../img/black-orchid.png");
+  padding: 0px;
+  /* Margin bottom must be same as footer height to have sticky footer */
+  margin: 0px 0px 200px;
+
+  font-family: "ff-good-headline-web-pro-con-n4","ff-good-headline-web-pro-con",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #303030;
+  background-image: url("../img/black-orchid.png");
 }
 
 /* Header */
