@@ -3,13 +3,8 @@ html {
   min-height: 100%;
 }
 
-/* html, body {
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-} */
-
 body {
+  height: 100%;
   padding: 0px;
   /* Margin bottom must be same as footer height to have sticky footer */
   margin: 0px 0px 200px;
@@ -185,12 +180,11 @@ h4 {
 }
 
 .form-group {
-    display: flex;
-    justify-content: center;
+    margin: 25px 0 25px;
 }
 
-.form {
-    padding: 70px 0;
+.form-control {
+    margin: 5px 0;
 }
 
 #firstname, #lastname, #email, #phone, #comment {
