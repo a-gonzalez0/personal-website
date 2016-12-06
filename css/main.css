@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  height: 100%;
   padding: 0px;
   /* Margin bottom must be same as footer height to have sticky footer */
   margin: 0px 0px 200px;
@@ -179,11 +178,11 @@ h4 {
     height: 100%;
 }
 
-.form-group {
+#contact .form-group {
     margin: 25px 0 25px;
 }
 
-.form-control {
+#contact .form-control {
     margin: 5px 0;
 }
 
