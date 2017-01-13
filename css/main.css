@@ -38,20 +38,6 @@ body {
     margin: -15px 0;
 }
 
-.navbar-brand .name {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 5px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.navbar-brand .title {
-    margin-top: 2px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
 .navbar-fixed-top {
     position: fixed;
     right: 0;
@@ -111,7 +97,6 @@ h4 {
     height: 100%;
     width: 100%;
     padding: 50px 0;
-    text-align: center;
     color: #ddd;
 }
 
