@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  position: relative;
   padding: 0px;
   /* Margin bottom must be same as footer height to have sticky footer */
   margin: 0px 0px 200px;
