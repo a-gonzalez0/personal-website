@@ -24,7 +24,6 @@ body {
 
 #myNavbar {
   position: relative;
-  overflow-y: scroll;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
