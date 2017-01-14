@@ -46,11 +46,11 @@ $(document).ready(function(){
     // Modal 
     $('#myModal').on('show.bs.modal', function (e) {
             var image = $(e.relatedTarget).attr('src');
-            $(".img-responsive").attr("src", image);
+            $(".img-fluid").attr("src", image);
     });
     
     // Add scrollspy to <body>
-    $('body').scrollspy({ target: '#myNavbar' })
+    $('body').scrollspy({target: "#myNavbar", offset: 50});   
 
     // Add smooth scrolling on all links inside the navbar
     $("#myNavbar a").on('click', function(event) {
