@@ -202,15 +202,9 @@ footer {
     padding-top: 50px;
 }
 
-footer img {
-  margin: 10px 15px;
-}
-
 footer p {
     font-size: 11px;
     color: #fff;
-    display: flex;
-    justify-content: center;
 }
 
 footer ul {
