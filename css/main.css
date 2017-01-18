@@ -130,6 +130,7 @@ h4 {
 #skills {
     padding: 70px 0;
     height: 100%;
+    width: 100%;
     background-color: #ddd;
 }
 
@@ -174,6 +175,7 @@ h4 {
 #contact {
     padding: 70px 0; 
     height: 100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ddd;
