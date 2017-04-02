@@ -172,8 +172,8 @@ h4 {
 #contact {
     padding: 70px 0; 
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+/*     margin-left: auto;
+    margin-right: auto; */
 }
 
 #contact .form-group {
