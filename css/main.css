@@ -187,7 +187,7 @@ h4 {
 #firstname, #lastname, #email, #phone, #comment {
     background-color: #fff;
     color: rgba(0,0,0,.85);
-    border-color: rgba(0,0,0,.45);
+    border-color: rgba(0,0,0,.35);
 }
 
 /* Footer */
