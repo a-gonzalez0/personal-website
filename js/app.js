@@ -44,19 +44,10 @@ var main = function() {
 
 $(document).ready(function(){
    // Navbar color change while scrolling
-   var scroll_start = 0;
-   var startchange = $('#startchange');
-   var offset = startchange.offset();
-    if (startchange.length){
-        $(document).scroll(function() { 
-            scroll_start = $(this).scrollTop();
-            if(scroll_start > offset.top) {
-                $(".navbar-inverse").css('background-color', '#f0f0f0');
-            } else {
-                $('.navbar-inverse').css('background-color', 'transparent');
-            }
-        });
-    }
+   $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
 
     // Modal 
     $('#myModal').on('show.bs.modal', function (e) {
