@@ -113,6 +113,7 @@ h4 {
 
 /* Pages */
 #home {
+    font-family: proxima-nova, sans-serif;
     height: 100%;
     width: 100%;
     padding: 50px 0;
