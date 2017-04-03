@@ -91,11 +91,11 @@ h2:after {
 
 h3 {
     font-family: proxima-nova, sans-serif;
+    font-size: 30px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
