@@ -90,8 +90,6 @@ h2:after {
 }
 
 h3 {
-    font-family: proxima-nova, sans-serif;
-    font-size: 30px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -117,6 +115,11 @@ h4 {
     width: 100%;
     padding: 50px 0;
     color: #ddd;
+}
+
+#home h3 {
+    font-family: proxima-nova, sans-serif;
+    font-size: 30px;
 }
 
 #about {
