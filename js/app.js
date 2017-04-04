@@ -45,9 +45,9 @@ var main = function() {
 $(document).ready(function(){
    // Navbar color change while scrolling
    $(document).scroll(function () {
-	  var $nav = $(".navbar-fixed-top");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
+       var $nav = $(".navbar .fixed-top");
+       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+   });
 
     // Modal 
     $('#myModal').on('show.bs.modal', function (e) {
