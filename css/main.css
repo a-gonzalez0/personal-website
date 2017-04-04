@@ -115,6 +115,7 @@ h4 {
     width: 100%;
     padding: 50px 0;
     color: #ddd;
+    display: inline-block;
 }
 
 #home h3 {
