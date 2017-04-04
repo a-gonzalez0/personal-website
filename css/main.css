@@ -38,9 +38,9 @@ body {
     background-color: transparent;
 }
 
-.navbar-brand > img {
+/* .navbar-brand > img {
     width: 50px;
-}
+} */
 
 .navbar-brand {
     font-size: 11px;
