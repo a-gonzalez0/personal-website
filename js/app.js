@@ -85,6 +85,12 @@ $(document).ready(function(){
           distance:'300px',
           viewFactor: 0.2
         });
+        sr.reveal('.info-bottom', {
+          duration: 2000,
+          origin:'bottom',
+          distance:'300px',
+          viewFactor: 0.2
+        });
     
     // Modal 
     $('#myModal').on('show.bs.modal', function (e) {
