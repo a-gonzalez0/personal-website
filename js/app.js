@@ -50,7 +50,7 @@ $(document).ready(function(){
    });
 
     window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
+        sr.reveal('.navbar-fixed-top', {
           duration: 2000,
           origin:'bottom'
         });
