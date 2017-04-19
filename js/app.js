@@ -45,7 +45,7 @@ var main = function() {
 $(document).ready(function(){
    // Navbar color change while scrolling
    $(document).scroll(function () {
-       var $nav = $(".navbar .fixed-top");
+       var $nav = $(".fixed-top");
        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
    });
 
