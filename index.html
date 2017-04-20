@@ -47,6 +47,16 @@
     </head>
   
     <body>
+	<script>
+	    function myMap() {
+	        var mapCanvas = document.getElementById("map");
+		var mapOptions = {
+		    center: new google.maps.LatLng(40.7128, -74.0059), zoom: 10
+		};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+	    }
+	</script>
+	    
         <!-- Fixed Navbar -->
 	
 	    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
@@ -175,6 +185,8 @@
 			</fieldset>
 		</form>
 	</div>
+	
+	<div id="map" style="width:100%;height:400px"></div>
     </div>	
   	<!-- Footer -->
   	<footer class="footer">
