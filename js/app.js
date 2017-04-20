@@ -3,49 +3,49 @@ var main = function() {
         $('.dropdown-menu').toggle();
     });
     
-    $('.arrow-next').click(function() {
-        var currentSlide = $('.active-slide');
-        var nextSlide = currentSlide.next();
+//     $('.arrow-next').click(function() {
+//         var currentSlide = $('.active-slide');
+//         var nextSlide = currentSlide.next();
         
-        var currentDot = $('.active-dot');
-        var nextDot = currentDot.next();
+//         var currentDot = $('.active-dot');
+//         var nextDot = currentDot.next();
         
-        if(nextSlide.length == 0) {
-            nextSlide = $('.slide').first();
-            nextDot = $('.dot').first();
-        }
+//         if(nextSlide.length == 0) {
+//             nextSlide = $('.slide').first();
+//             nextDot = $('.dot').first();
+//         }
         
-        currentSlide.fadeOut(600).removeClass('active-slide');
-        nextSlide.fadeIn(600).addClass('active-slide');
+//         currentSlide.fadeOut(600).removeClass('active-slide');
+//         nextSlide.fadeIn(600).addClass('active-slide');
         
-        currentDot.removeClass('active-dot');
-        nextDot.addClass('active-dot');
-    });
+//         currentDot.removeClass('active-dot');
+//         nextDot.addClass('active-dot');
+//     });
     
-    $('.arrow-prev').click(function() {
-        var currentSlide = $('.active-slide');
-        var prevSlide = currentSlide.prev();
+//     $('.arrow-prev').click(function() {
+//         var currentSlide = $('.active-slide');
+//         var prevSlide = currentSlide.prev();
         
-        var currentDot = $('.active-dot');
-        var prevDot = currentDot.prev();
+//         var currentDot = $('.active-dot');
+//         var prevDot = currentDot.prev();
         
-        if(prevSlide.length == 0) {
-            prevSlide = $('.slide').last();
-            prevDot = $('.dot').last();
-        }
+//         if(prevSlide.length == 0) {
+//             prevSlide = $('.slide').last();
+//             prevDot = $('.dot').last();
+//         }
         
-        currentSlide.fadeOut(600).removeClass('active-slide');
-        prevSlide.fadeIn(600).addClass('active-slide');
+//         currentSlide.fadeOut(600).removeClass('active-slide');
+//         prevSlide.fadeIn(600).addClass('active-slide');
         
-        currentDot.removeClass('active-dot');
-        prevDot.addClass('active-dot');
-    });
+//         currentDot.removeClass('active-dot');
+//         prevDot.addClass('active-dot');
+//     });
 };
 
 $(document).ready(function(){
    // Navbar color change while scrolling
    $(document).scroll(function () {
-       var $nav = $(".fixed-top");
+       var $nav = $(".navbar");
        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
    });
 
@@ -93,10 +93,10 @@ $(document).ready(function(){
         });
     
     // Modal 
-    $('#myModal').on('show.bs.modal', function (e) {
-            var image = $(e.relatedTarget).attr('src');
-            $(".img-fluid").attr("src", image);
-    });
+//     $('#myModal').on('show.bs.modal', function (e) {
+//             var image = $(e.relatedTarget).attr('src');
+//             $(".img-fluid").attr("src", image);
+//     });
     
     // Add scrollspy to <body>
     $('body').scrollspy({target: "#myNavbar", offset: 50});   
@@ -122,17 +122,17 @@ $(document).ready(function(){
     });
 });
 
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var myCenter = new google.maps.LatLng(40.7128,74.0059); 
-  var mapOptions = {center: myCenter, zoom: 5};
-  var map = new google.maps.Map(mapCanvas,mapOptions);
-  var marker = new google.maps.Marker({
-    position: myCenter,
-    animation: google.maps.Animation.BOUNCE
-  });
-  marker.setMap(map);
-}
+// function myMap() {
+//   var mapCanvas = document.getElementById("map");
+//   var myCenter = new google.maps.LatLng(40.7128,74.0059); 
+//   var mapOptions = {center: myCenter, zoom: 5};
+//   var map = new google.maps.Map(mapCanvas,mapOptions);
+//   var marker = new google.maps.Marker({
+//     position: myCenter,
+//     animation: google.maps.Animation.BOUNCE
+//   });
+//   marker.setMap(map);
+// }
 
 $(document).click(function (event) {
     var clickover = $(event.target);
@@ -143,40 +143,40 @@ $(document).click(function (event) {
     }
 });
 
-(function () {
-    function checkTime(i) {
-        return (i < 10) ? "0" + i : i;
-    }
+// (function () {
+//     function checkTime(i) {
+//         return (i < 10) ? "0" + i : i;
+//     }
 
-    function startTime() {
-        var today = new Date(),
-            h = checkTime(today.getHours()),
-            m = checkTime(today.getMinutes()),
-            s = checkTime(today.getSeconds());
-        h =  h % 12 || 12;
-        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-        t = setTimeout(function () {
-            startTime()
-        }, 500);
-    }
+//     function startTime() {
+//         var today = new Date(),
+//             h = checkTime(today.getHours()),
+//             m = checkTime(today.getMinutes()),
+//             s = checkTime(today.getSeconds());
+//         h =  h % 12 || 12;
+//         document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+//         t = setTimeout(function () {
+//             startTime()
+//         }, 500);
+//     }
 
-    function checkMeridiem() {
-    	var today = new Date(),
-            h = checkTime(today.getHours()),
-            m = checkTime(today.getMinutes()),
-            s = checkTime(today.getSeconds());
-        var meridiem = h < 12 ? 'AM' : 'PM';
-        document.getElementById("meridiem").innerHTML = meridiem;
-    }
+//     function checkMeridiem() {
+//     	var today = new Date(),
+//             h = checkTime(today.getHours()),
+//             m = checkTime(today.getMinutes()),
+//             s = checkTime(today.getSeconds());
+//         var meridiem = h < 12 ? 'AM' : 'PM';
+//         document.getElementById("meridiem").innerHTML = meridiem;
+//     }
 
-    function checkDate() {
-    	var d = new Date();
-    	document.getElementById("date").innerHTML = d.toDateString();
-    }
+//     function checkDate() {
+//     	var d = new Date();
+//     	document.getElementById("date").innerHTML = d.toDateString();
+//     }
 
-    startTime();
-    checkMeridiem();
-    checkDate();
-})();
+//     startTime();
+//     checkMeridiem();
+//     checkDate();
+// })();
 
 $(document).ready(main);
