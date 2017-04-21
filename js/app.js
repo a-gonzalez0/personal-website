@@ -43,18 +43,12 @@ var main = function() {
 };
 
 $(document).ready(function(){
-   // Navbar color change while scrolling
-   $(document).scroll(function () {
-       var $nav = $(".navbar-light");
-       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-       
-       if($(this).scrollTop()<$('#map').height() + 21) 
-	       $('#map').css({'transform':'translate(0px,'+$(this).scrollTop()+'px)'});
-       $('h4').html($(this).scrollTop());
-});
-     
-   });
-
+    // Navbar color change while scrolling
+    $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+	
     window.sr = ScrollReveal();
         sr.reveal('.fixed-top', {
           duration: 2000,
