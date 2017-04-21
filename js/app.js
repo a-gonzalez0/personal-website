@@ -47,6 +47,12 @@ $(document).ready(function(){
    $(document).scroll(function () {
        var $nav = $(".navbar-light");
        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+       
+       if($(this).scrollTop()<$('#map').height() + 21) 
+	       $('#map').css({'transform':'translate(0px,'+$(this).scrollTop()+'px)'});
+       $('h4').html($(this).scrollTop());
+});
+     
    });
 
     window.sr = ScrollReveal();
