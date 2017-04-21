@@ -45,14 +45,14 @@ var main = function() {
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".navbar");
+        var $nav = $(".fixed-top");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
     window.sr = ScrollReveal();
         sr.reveal('.fixed-top', {
           duration: 2000,
-          origin:'bottom'
+          origin:'top'
         });
         sr.reveal('.showcase-left', {
           duration: 2000,
