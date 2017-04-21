@@ -18,12 +18,7 @@ body {
 }
 
 /* Header */
-/* .navbar-inverse {
-    background:transparent;
-    border:none !important;
-} */
-
-.navbar .fixed-top .scrolled {
+.fixed-top .scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
@@ -36,20 +31,14 @@ body {
   position: relative;
 }
 
-/* .navbar-light .navbar-nav > li > a:hover,
-.navbar-light .navbar-nav > li > a:focus {
-    color: #00e5ff;
-    background-color: transparent;
-} */
-
 /* .navbar-brand {
     font-size: 12px;
     color: #fff;
     margin: -20px 0;
 } */
 
-.nav-item {
-/*     margin: 0 15px; */
+.nav-item { 
+    margin: 0 auto;
     font-size: .75rem;
     font-weight: 400;
 }
@@ -74,24 +63,6 @@ h2 {
     color: rgba(0,0,0,.85);
 }
 
-/* h2:before, 
-h2:after {
-    flex-grow: 1;
-    height: 1px;
-    content: '\a0';
-    background-color: rgba(0,0,0,.25);
-    position: relative;
-    top: 0.6em;
-} */
-
-/* h2:before {
-    margin-right: 10px;
-}
-
-h2:after {
-    margin-left: 10px;
-} */
-
 h3 {
     margin: 0 auto;
 }
@@ -111,9 +82,7 @@ h4 {
 
 /* Pages */
 #home {
-    height: 100%;
     width: 100%;
-/*     padding: 50px 0; */
     display: flex;
     align-items: center;
     justify-content: center;
