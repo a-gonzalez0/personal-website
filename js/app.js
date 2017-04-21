@@ -61,7 +61,7 @@ $(document).ready(function(){
 //     });
     
     // Add scrollspy to <body>
-    $('body').scrollspy({target: "#myNavbar", offset: 50});   
+    $('body').scrollspy({ target: '#myNavbar' })  
     
     // Add smooth scrolling on all links inside the navbar
     $("#myNavbar a").on('click', function(event) {
