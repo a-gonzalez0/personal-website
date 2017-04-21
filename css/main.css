@@ -184,8 +184,6 @@ h4 {
 }
 
 #contact {
-    display: flex;
-    justify-content: center;
     padding: 70px 0; 
     height: 100%;
     margin-left: auto;
