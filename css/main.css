@@ -183,15 +183,9 @@ h4 {
     padding: 5px;
 }
 
-#map {
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #contact {
+    display: flex;
+    justify-content: center;
     padding: 70px 0; 
     height: 100%;
     margin-left: auto;
