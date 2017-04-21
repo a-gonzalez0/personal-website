@@ -52,7 +52,7 @@ $(document).ready(function(){
     window.sr = ScrollReveal();
         sr.reveal('.fixed-top', {
           duration: 2000,
-          origin:'top'
+          origin:'left'
         });
         sr.reveal('.showcase-left', {
           duration: 2000,
