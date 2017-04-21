@@ -18,10 +18,10 @@ body {
 }
 
 /* Header */
-.navbar-inverse {
+/* .navbar-inverse {
     background:transparent;
     border:none !important;
-}
+} */
 
 .fixed-top .scrolled {
   background-color: #fff !important;
@@ -36,8 +36,8 @@ body {
   position: relative;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus {
     color: #00e5ff;
     background-color: transparent;
 }
