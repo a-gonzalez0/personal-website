@@ -7,13 +7,8 @@ var main = function() {
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".fixed-top");
+        var $nav = $(".navbar-fixed-top");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	    
-	var $map = $("#map");
-	if($(this).scrolltop() < $map.height() + 21) {
-	    $('#map').css({'transform':'translate(0px,'+$(this).scrollTop()+'px)'});
-	}
     });
 	
     window.sr = ScrollReveal();
