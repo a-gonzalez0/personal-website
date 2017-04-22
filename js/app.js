@@ -1,13 +1,13 @@
-var main = function() {
-    $('.dropdown-toggle').click(function() {
-        $('.dropdown-menu').toggle();
-    });
-};
+// var main = function() {
+//     $('.dropdown-toggle').click(function() {
+//         $('.dropdown-menu').toggle();
+//     });
+// };
 
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $("#myNavbar");
+        var $nav = $(".navbar");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
@@ -52,12 +52,6 @@ $(document).ready(function(){
           viewFactor: 0.2
         });
     
-    // Modal 
-//     $('#myModal').on('show.bs.modal', function (e) {
-//             var image = $(e.relatedTarget).attr('src');
-//             $(".img-fluid").attr("src", image);
-//     });
-    
     // Add scrollspy to <body>
     $('body').scrollspy({ target: '#myNavbar' })  
     
@@ -86,7 +80,7 @@ $(document).click(function (event) {
     var clickover = $(event.target);
     var $navbar = $(".navbar-collapse");               
     var _opened = $navbar.hasClass("in");
-    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+    if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
         $navbar.collapse('hide');
     }
 });
