@@ -1,13 +1,13 @@
-// var main = function() {
-//     $('.dropdown-toggle').click(function() {
-//         $('.dropdown-menu').toggle();
-//     });
-// };
+var main = function() {
+    $('.dropdown-toggle').click(function() {
+        $('.dropdown-menu').toggle();
+    });
+};
 
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".nav");
+        var $nav = $(".navbar");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
