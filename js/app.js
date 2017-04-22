@@ -14,7 +14,7 @@ $(document).ready(function(){
     window.sr = ScrollReveal();
         sr.reveal('.navbar-brand', {
           duration: 2000,
-          origin:'left'
+          origin:'top'
         });
         sr.reveal('.showcase-left', {
           duration: 2000,
@@ -37,9 +37,7 @@ $(document).ready(function(){
         });
         sr.reveal('.info-left', {
           duration: 2000,
-          origin:'left',
-          distance:'300px',
-          viewFactor: 0.2
+          origin:'bottom'
         });
         sr.reveal('.info-right', {
           duration: 2000,
