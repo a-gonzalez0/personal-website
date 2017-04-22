@@ -7,12 +7,12 @@ var main = function() {
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".navbar");
+        var $nav = $(".fixed-top");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
     window.sr = ScrollReveal();
-        sr.reveal('.fixed-top', {
+        sr.reveal('.navbar-brand', {
           duration: 2000,
           origin:'left'
         });
