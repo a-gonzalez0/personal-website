@@ -7,7 +7,7 @@
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".navbar");
+        var $nav = $(".navbar .fixed-top .navbar-toggleable-md .navbar-light .bg-transparent");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
