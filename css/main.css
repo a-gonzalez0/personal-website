@@ -27,14 +27,15 @@ body {
   color:#555;
 }
 
-/* #myNavbar {
+#myNavbar {
   position: relative;
-} */
+}
 
 .navbar-brand {
     font-size: 12px;
     color: #fff;
     margin: 0;
+    padding: 0;
 }
 
 .nav-item { 
