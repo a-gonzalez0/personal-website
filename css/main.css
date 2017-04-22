@@ -38,6 +38,7 @@ body {
 } */
 
 .nav-item { 
+    margin: 0 15px;
     font-size: .75rem;
     font-weight: 400;
 }
