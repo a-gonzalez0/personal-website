@@ -7,7 +7,7 @@ var main = function() {
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".navbar");
+        var $nav = $(".bg-faded");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
