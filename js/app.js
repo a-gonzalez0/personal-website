@@ -7,15 +7,11 @@
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".bg-transparent");
+        var $nav = $(".navbar");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
     window.sr = ScrollReveal();
-        sr.reveal('.navbar-brand', {
-          duration: 2000,
-          origin:'top'
-        });
         sr.reveal('.showcase-left', {
           duration: 2000,
           origin:'top',
