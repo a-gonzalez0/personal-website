@@ -27,9 +27,9 @@ body {
   color:#555;
 }
 
-/* #myNavbar {
+#myNavbar {
   position: relative;
-} */
+}
 
 .navbar-brand {
     font-size: 12px;
@@ -43,7 +43,7 @@ body {
     font-weight: 400;
 }
 
-.navbar .fixed-top {
+.fixed-top {
     position: fixed;
     right: 0;
     left: 0;
