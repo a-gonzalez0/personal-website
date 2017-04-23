@@ -11,8 +11,10 @@ $(document).ready(function(){
 	    if($(this).scrollTop() > a)
 	    {   
 	       $('.fixed-top').css({"background":"white"});
+	       $(".nav-link").css("color", "black");
 	    } else {
 	       $('.fixed-top').css({"background":"transparent"});
+	       $(".nav-link").css("color", "white");
 	    }
 	});
 	
