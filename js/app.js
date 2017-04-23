@@ -13,7 +13,7 @@ $(document).ready(function(){
 	       $('.fixed-top').css({"background":"white"});
 	    } else {
 	       $('.fixed-top').css({"background":"transparent"});
-	       $(".nav-item").css("color", "white");
+	       $(".nav-link").css("color", "white");
 	    }
 	});
 	
