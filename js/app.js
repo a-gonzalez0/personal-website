@@ -8,8 +8,7 @@ $(document).ready(function(){
     var a = $(".fixed-top").offset().top;
 
 	$(document).scroll(function(){
-	    if($(this).scrollTop() > a)
-	    {   
+	    if($(this).scrollTop() > a) {   
 	       $('.fixed-top').css({"background":"white"});
 	    } else {
 	       $('.fixed-top').css({"background":"transparent"});
@@ -17,10 +16,12 @@ $(document).ready(function(){
 	});
 	
     $(document).click(function(e) {
-	if (!$(e.target).is('a')) {
-    	    $('.collapse').collapse('hide');	    
-        }
+		if (!$(e.target).is('a')) {
+			$('.collapse').collapse('hide');	    
+		}
     });
+	
+	$('.carousel').carousel();
 	
     window.sr = ScrollReveal();
         sr.reveal('.showcase-left', {
