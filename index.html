@@ -149,19 +149,31 @@
 			</div>
 		</div>
 		
-		<div id="testimonials">
-			<h2 class="text-white">What they say</h2>
-			<div class="testimonial-slider w-slider" data-animation="slide" data-duration="500" data-infinite="1">
-				<div class="w-slider-mask">
-          			<div class="w-slide">
-            			<div class="testimonial-block"><img class="testimonial-image" src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
-              				<div class="testimonial">I love their work, I couldn't imagine my company without them. I can't wait to work with them again.</div>
-              				<div class="author testimonial">John Doe, CEO Creative Site Inc.</div>
-            			</div>
-          			</div>
-          			<div class="w-slide"></div>
+		<div id="testimonials" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#testimonials" data-slide-to="0" class="active"></li>
+				<li data-target="#testimonials" data-slide-to="1"></li>
+				<li data-target="#testimonials" data-slide-to="2"></li>
+		  	</ol>
+  			<div class="carousel-inner" role="listbox">
+    			<div class="carousel-item active">
+      				<img class="d-block img-fluid" src="..." alt="First slide">
+    			</div>
+				<div class="carousel-item">
+				  	<img class="d-block img-fluid" src="..." alt="Second slide">
 				</div>
-			</div>
+				<div class="carousel-item">
+				  	<img class="d-block img-fluid" src="..." alt="Third slide">
+				</div>
+  			</div>
+		    <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+		    </a>
+		    <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+		    </a>
 		</div>
 	    
 		<div id="contact">
