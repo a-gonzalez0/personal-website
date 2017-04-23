@@ -153,12 +153,12 @@ h4 {
 }
 
 #contact .form-group {
-    margin: 25px;
+    margin: 5px;
 }
 
-#contact .form-control {
-    margin: 0;
-}
+/* #contact .form-control {
+    margin: 5px 0;
+} */
 
 #firstname, #lastname, #email, #phone, #comment {
     background-color: #fff;
