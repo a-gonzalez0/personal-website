@@ -1,8 +1,8 @@
-var main = function() {
-    $('.dropdown-toggle').click(function() {
-        $('.dropdown-menu').toggle();
-    });
-};
+// var main = function() {
+//     $('.dropdown-toggle').click(function() {
+//         $('.dropdown-menu').toggle();
+//     });
+// };
 
 $(document).ready(function(){
     // Navbar color change while scrolling
@@ -72,13 +72,13 @@ $(document).ready(function(){
     });
 });
 
-$(document).click(function (event) {
-    var clickover = $(event.target);
-    var $navbar = $(".collapse");               
-    var _opened = $navbar.hasClass("in");
-    if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
-        $navbar.collapse('hide');
-    }
-});
+// $(document).click(function (event) {
+//     var clickover = $(event.target);
+//     var $navbar = $(".collapse");               
+//     var _opened = $navbar.hasClass("in");
+//     if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
+//         $navbar.collapse('hide');
+//     }
+// });
 
 $(document).ready(main);
