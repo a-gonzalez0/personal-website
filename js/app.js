@@ -5,7 +5,7 @@ $(document).ready(function(){
 //         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 //     });
 	
-    var a = $(".nav").offset().top;
+    var a = $(".fixed-top").offset().top;
 
 	$(document).scroll(function(){
 	    if($(this).scrollTop() > a)
