@@ -1,9 +1,20 @@
 $(document).ready(function(){
     // Navbar color change while scrolling
-    $(document).scroll(function () {
-        var $nav = $(".bg-transparent");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    });
+//     $(document).scroll(function () {
+//         var $nav = $(".bg-transparent");
+//         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//     });
+	
+    var a = $(".nav").offset().top;
+
+	$(document).scroll(function(){
+	    if($(this).scrollTop() > a)
+	    {   
+	       $('.nav').css({"background":"red"});
+	    } else {
+	       $('.nav').css({"background":"transparent"});
+	    }
+	});
 	
     $(document).click(function(e) {
 	if (!$(e.target).is('a')) {
