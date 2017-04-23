@@ -1,13 +1,7 @@
-// var main = function() {
-//     $('.dropdown-toggle').click(function() {
-//         $('.dropdown-menu').toggle();
-//     });
-// };
-
 $(document).ready(function(){
     // Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $(".navbar");
+        var $nav = $(".bg-transparent");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
@@ -77,14 +71,5 @@ $(document).ready(function(){
         });
     });
 });
-
-// $(document).click(function (event) {
-//     var clickover = $(event.target);
-//     var $navbar = $(".collapse");               
-//     var _opened = $navbar.hasClass("in");
-//     if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
-//         $navbar.collapse('hide');
-//     }
-// });
 	
 $(document).ready(main);
