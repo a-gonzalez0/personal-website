@@ -11,6 +11,14 @@ $(document).ready(function(){
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+	
     window.sr = ScrollReveal();
         sr.reveal('.showcase-left', {
           duration: 2000,
@@ -80,11 +88,5 @@ $(document).ready(function(){
 //         $navbar.collapse('hide');
 //     }
 // });
-
-$(function() {
-  $(document).click(function (event) {
-    $('.navbar-collapse').collapse('hide');
-  }
-});
 	
 $(document).ready(main);
