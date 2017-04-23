@@ -157,7 +157,7 @@ h4 {
 }
 
 #contact .form-control {
-    margin: 5px 0;
+    margin: 0;
 }
 
 #firstname, #lastname, #email, #phone, #comment {
