@@ -10,9 +10,9 @@ $(document).ready(function(){
 	$(document).scroll(function(){
 	    if($(this).scrollTop() > a)
 	    {   
-	       $('.nav').css({"background":"red"});
+	       $('.fixed-top').css({"background":"black"});
 	    } else {
-	       $('.nav').css({"background":"transparent"});
+	       $('.fixed-top').css({"background":"transparent"});
 	    }
 	});
 	
