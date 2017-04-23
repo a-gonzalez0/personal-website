@@ -11,11 +11,9 @@ $(document).ready(function(){
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
-    $(document).click(function (event) {
-        var clickover = $(event.target);
-        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
-        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
-            $("button.navbar-toggler").click();
+    $(document).click(function(e) {
+	if (!$(e.target).is('a')) {
+    	    $('.collapse').collapse('hide');	    
         }
     });
 	
