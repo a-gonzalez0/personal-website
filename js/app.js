@@ -10,9 +10,11 @@ $(document).ready(function(){
 	$(document).scroll(function(){
 	    if($(this).scrollTop() > a)
 	    {   
-	       $('.fixed-top').css({"background":"black"});
+	       $('.fixed-top').css({"background":"white"});
+	       $('.fixed-top').css({"color":"black"});
 	    } else {
 	       $('.fixed-top').css({"background":"transparent"});
+	       $('.fixed-top').css({"color":"white"});
 	    }
 	});
 	
