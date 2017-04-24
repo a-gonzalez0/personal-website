@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    Navbar color change while scrolling
+    //Navbar color change while scrolling
     $(document).scroll(function () {
         var a = $('.fixed-top').offset().top;
         a.toggleClass('scrolled', $(this).scrollTop() > a);
