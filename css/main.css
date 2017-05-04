@@ -60,10 +60,9 @@ body {
   font-size: 18px;
   line-height: 1.33;
   	
-  box-shadow: 10px -10px rgba(0,0,0,0.3); 
-  -moz-box-shadow: 10px -10px rgba(0,0,0,0.3); 
-  -webkit-box-shadow: 10px -10px rgba(0,0,0,0.3); 
-  -o-box-shadow: 10px -10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
 
   border-radius: 25px;
   border: none;
