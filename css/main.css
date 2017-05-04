@@ -59,6 +59,12 @@ body {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
+  	
+  box-shadow: 10px -10px rgba(0,0,0,0.3); 
+  -moz-box-shadow: 10px -10px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: 10px -10px rgba(0,0,0,0.3); 
+  -o-box-shadow: 10px -10px rgba(0,0,0,0.3);
+
   border-radius: 25px;
   border: none;
 }
