@@ -51,6 +51,7 @@ body {
     bottom: 20px;
     right: 20px;
     display:none;
+    color: #ddd;
 }
 
 .btn-circle.btn-lg {
