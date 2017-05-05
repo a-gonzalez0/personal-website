@@ -5,16 +5,6 @@ $(document).ready(function(){
         a.toggleClass('scrolled', $(this).scrollTop() > a);
     });
 	
-//     var a = $(".fixed-top").offset().top;
-
-// 	$(document).scroll(function(){
-// 	    if($(this).scrollTop() > a) {   
-// 	       $('.fixed-top').css({"background":"white"});
-// 	    } else {
-// 	       $('.fixed-top').css({"background":"transparent"});
-// 	    }
-// 	});
-	
 	$(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
