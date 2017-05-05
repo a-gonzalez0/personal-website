@@ -1,7 +1,7 @@
 $(document).ready(function(){
     //Navbar color change while scrolling
     $(document).scroll(function () {
-        var $nav = $('.fixed-top');
+        var $nav = $('.navbar-fixed-top');
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
