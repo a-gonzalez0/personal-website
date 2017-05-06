@@ -20,6 +20,7 @@ body {
 /* Header */
 .fixed-top.scrolled {
   background: rgba(245, 245, 245, 0.8) !important;
+  filter:blur(5px);
   transition: background-color 200ms linear;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
