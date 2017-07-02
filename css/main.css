@@ -106,7 +106,7 @@ h4 {
 }
 
 .jumbotron-fluid {
-    background-image: -webkit-linear-gradient(bottom, rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('../img/background.jpg');    
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../img/background.jpg');    
     background-attachment: fixed;
     height: 100vh;
     padding: 50px 0;
@@ -114,6 +114,7 @@ h4 {
     overflow: hidden;
 }
 
+/* rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('../img/background.jpg'); */
 /* Pages */
 #home {
     height: 100%;
