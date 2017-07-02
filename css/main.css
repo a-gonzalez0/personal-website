@@ -114,6 +114,11 @@ h4 {
     overflow: hidden;
 }
 
+.grad {
+    height: 200px;
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
 /* Pages */
 #home {
     height: 100%;
