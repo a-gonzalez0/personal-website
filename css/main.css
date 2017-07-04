@@ -12,10 +12,13 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ddd;
   overflow-y: auto;
   overflow-x: hidden;
   background-color: #f5f5f5;
+}
+
+.nav-link {
+  color: #ddd;
 }
 
 /* Header */
