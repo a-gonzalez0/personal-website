@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(document).scroll(function () {
         var $nav = $('.fixed-top');
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	$nav.toggleClass('text-white', $(this).scrollTop() < $nav.height());
+	$nav.toggleClass('text-black', $(this).scrollTop() > $nav.height());
     });
 	
 	$(window).scroll(function () {
