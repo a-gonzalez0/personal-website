@@ -35,10 +35,6 @@ body {
   color:#555;
 }
 
-.fixed-top.scrolled .nav-link .active {
-  color:#000;
-}
-
 .blurheader {
     background: transparent;
     overflow: hidden;
