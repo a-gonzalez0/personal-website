@@ -15,14 +15,19 @@ $(document).ready(function(){
 	
     // scroll body to 0px on click
     $('#back-to-top').click(function () {
-//         $('#back-to-top').tooltip('hide');
         $('body,html').animate({
             scrollTop: 0
         }, 800);
         return false;
     });
-        
-//     $('#back-to-top').tooltip('show');
+
+    // scroll home to 0px on click
+    $('#home').click(function() {
+	$('body,html').animate({
+	    scrollTop: 0
+	}, 800);
+	return false;
+    });
 	
     $(document).click(function(e) {
 	if (!$(e.target).is('a')) {
@@ -92,25 +97,5 @@ $(document).ready(function(){
         });
     });
 });
-
-// $(function () {
-//     html2canvas($("body"), {
-//         onrendered: function (canvas) {
-//             $(".blurheader").append(canvas);
-//             $("canvas").attr("id", "canvas");
-//             stackBlurCanvasRGB(
-//                 'canvas',
-//             0,
-//             0,
-//             $("canvas").width(),
-//             $("canvas").height(),
-//             20);
-//         }
-//     });
-//     vv = setTimeout(function () {
-//         $("header").show();
-//         clearTimeout(vv);
-//     }, 200);
-// });
 
 $(document).ready(main);
