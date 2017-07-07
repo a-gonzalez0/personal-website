@@ -5,68 +5,69 @@ $(document).ready(function(){
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 	
-	$(window).scroll(function () {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
         }
     });
+	
     // scroll body to 0px on click
     $('#back-to-top').click(function () {
-        $('#back-to-top').tooltip('hide');
+//         $('#back-to-top').tooltip('hide');
         $('body,html').animate({
             scrollTop: 0
         }, 800);
         return false;
     });
         
-    $('#back-to-top').tooltip('show');
+//     $('#back-to-top').tooltip('show');
 	
     $(document).click(function(e) {
-		if (!$(e.target).is('a')) {
-			$('.collapse').collapse('hide');	    
-		}
+	if (!$(e.target).is('a')) {
+	    $('.collapse').collapse('hide');	    
+	}
     });
 	
     $('.carousel').carousel();
 	
     window.sr = ScrollReveal();
-        sr.reveal('.showcase-left', {
-          duration: 2000,
-          origin:'top',
-          distance:'300px'
-        });
-        sr.reveal('.showcase-right', {
-          duration: 2000,
-          origin:'right',
-          distance:'300px'
-        });
-        sr.reveal('.showcase-btn', {
-          duration: 2000,
-          delay: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('#testimonial div', {
-          duration: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('.info-left', {
-          duration: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('.info-right', {
-          duration: 2000,
-          origin:'right',
-          distance:'300px',
-          viewFactor: 0.2
-        });
-        sr.reveal('.info-bottom', {
-          duration: 2000,
-          origin:'bottom',
-          distance:'300px',
-          viewFactor: 0.2
-        });
+    sr.reveal('.showcase-left', {
+        duration: 2000,
+        origin:'top',
+        distance:'300px'
+    });
+    sr.reveal('.showcase-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'300px'
+    });
+    sr.reveal('.showcase-btn', {
+        duration: 2000,
+        delay: 2000,
+        origin:'bottom'
+    });
+    sr.reveal('#testimonial div', {
+        duration: 2000,
+        origin:'bottom'
+    });
+    sr.reveal('.info-left', {
+        duration: 2000,
+        origin:'bottom'
+    });
+    sr.reveal('.info-right', {
+        duration: 2000,
+        origin:'right',
+        distance:'300px',
+        viewFactor: 0.2
+    });
+    sr.reveal('.info-bottom', {
+        duration: 2000,
+        origin:'bottom',
+        distance:'300px',
+        viewFactor: 0.2
+    });
     
     // Add scrollspy to <body>
     $('body').scrollspy({ target: '#myNavbar' })  
@@ -92,24 +93,24 @@ $(document).ready(function(){
     });
 });
 
-$(function () {
-    html2canvas($("body"), {
-        onrendered: function (canvas) {
-            $(".blurheader").append(canvas);
-            $("canvas").attr("id", "canvas");
-            stackBlurCanvasRGB(
-                'canvas',
-            0,
-            0,
-            $("canvas").width(),
-            $("canvas").height(),
-            20);
-        }
-    });
-    vv = setTimeout(function () {
-        $("header").show();
-        clearTimeout(vv);
-    }, 200);
-});
+// $(function () {
+//     html2canvas($("body"), {
+//         onrendered: function (canvas) {
+//             $(".blurheader").append(canvas);
+//             $("canvas").attr("id", "canvas");
+//             stackBlurCanvasRGB(
+//                 'canvas',
+//             0,
+//             0,
+//             $("canvas").width(),
+//             $("canvas").height(),
+//             20);
+//         }
+//     });
+//     vv = setTimeout(function () {
+//         $("header").show();
+//         clearTimeout(vv);
+//     }, 200);
+// });
 
 $(document).ready(main);
