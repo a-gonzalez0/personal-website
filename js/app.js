@@ -20,14 +20,6 @@ $(document).ready(function(){
         }, 800);
         return false;
     });
-
-    // scroll home to 0px on click
-    $('#home').click(function() {
-	$('body,html').animate({
-	    scrollTop: 0
-	}, 800);
-	return false;
-    });
 	
     $(document).click(function(e) {
 	if (!$(e.target).is('a')) {
