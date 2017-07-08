@@ -39,9 +39,13 @@ body {
   color:#555;
 }
 
-.fixed-top.scrolled > .nav-link .hover, .nav-link .active{
+.fixed-top.scrolled .nav-link .hover {
   color:#000;
 }  
+
+.fixed-top.scrolled .nav-link .active {
+  color:#000;
+}
 
 #myNavbar {
   position: relative;
