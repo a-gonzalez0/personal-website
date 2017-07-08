@@ -43,6 +43,10 @@ body {
   color:#000;
 }  
 
+.fixed-top.scrolled .nav-link .hover {
+  color:#000;
+}
+
 .blurheader {
     background: transparent;
     overflow: hidden;
