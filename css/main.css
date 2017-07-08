@@ -35,33 +35,13 @@ body {
   color:#555;
 }
 
-/* .fixed-top.scrolled .nav-link {
+.fixed-top.scrolled .nav-link {
   color:#555;
-} */
+}
 
-/* .fixed-top.scrolled .nav-link .active {
+.fixed-top.scrolled > .nav-link .active, .hover {
   color:#000;
 }  
-
-.fixed-top.scrolled .nav-link .hover {
-  color:#000;
-} */
-
-.blurheader {
-    background: transparent;
-    overflow: hidden;
-    z-index: 10000;
-    background: #fff;
-    left: 0;
-}
-
-#canvas {
-    opacity:1;
-    z-index: 100;
-    position: absolute;
-    display: block;
-    top: 3px;
-}
 
 #myNavbar {
   position: relative;
