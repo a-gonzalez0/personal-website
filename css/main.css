@@ -39,7 +39,7 @@ body {
   color:#555;
 }
 
-.fixed-top.scrolled .nav-link .selected {
+.fixed-top.scrolled .nav-link .active {
   color:#000;
 }  
 
