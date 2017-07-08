@@ -31,7 +31,7 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
 }
 
-/* .fixed-top.scrolled .navbar-brand {
+.fixed-top.scrolled .navbar-brand {
   color:#555;
 }
 
@@ -39,9 +39,9 @@ body {
   color:#555;
 }
 
-.fixed-top.scrolled > .nav-link .active, .hover {
+.fixed-top.scrolled > .nav-link .hover, .nav-link .active{
   color:#000;
-}   */
+}  
 
 #myNavbar {
   position: relative;
