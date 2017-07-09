@@ -39,6 +39,10 @@ body {
   color:#555;
 }
 
+.fixed-top.scrolled .navbar-brand {
+  color:#555;
+}
+
 .nav-item { 
     margin: 0 15px;
     font-size: .75rem;
