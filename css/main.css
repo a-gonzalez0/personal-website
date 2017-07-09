@@ -181,11 +181,11 @@ h4 {
   height:400px;
   overflow:hidden;
   position:relative;
-  padding-bottom: 50px;
 }
 
 #contact .form-group {
-    margin: 5px;
+  padding-top: 50px;
+  margin: 5px;
 }
 
 #firstname, #lastname, #email, #phone, #comment {
