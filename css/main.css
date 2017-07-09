@@ -35,7 +35,7 @@ body {
   position: relative;
 }
 
-.fixed-top.scrolled .navbar-inverse {
+.fixed-top.scrolled .navbar-inverse, .navbar-brand {
   color:#555;
 }
 
