@@ -49,11 +49,11 @@ body {
   color:#555;
 }
 
-.fixed-top.scrolled .nav-link > .hover {
+.fixed-top.scrolled .navbar-inverse .nav-link .hover {
   color:#000;
 }  
 
-.fixed-top.scrolled .nav-link > .active {
+.fixed-top.scrolled .navbar-inverse .nav-link .active {
   color:#000;
 }
 
