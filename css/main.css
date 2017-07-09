@@ -200,10 +200,6 @@ h4 {
     margin: 5px;
 }
 
-/* #contact .form-control {
-    margin: 5px 0;
-} */
-
 #firstname, #lastname, #email, #phone, #comment {
     background-color: #fff;
     color: rgba(0,0,0,.55);
