@@ -131,19 +131,19 @@ h4 {
     height: 100%;
 }
 
-#services h4 {
-    font-size: 2rem;
-    padding-bottom: 25px;
-    font-weight: 300;
-    color: rgba(0,0,0,.85);
-}
-
 #services img {
     padding: 25px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+}
+
+#services h4 {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    font-weight: 300;
+    color: rgba(0,0,0,.85);
 }
 
 #services p {
@@ -183,8 +183,11 @@ h4 {
   position:relative;
 }
 
+#contact form {
+  padding-top: 25px;
+}
+
 #contact .form-group {
-  padding-top: 50px;
   margin: 5px;
 }
 
