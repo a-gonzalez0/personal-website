@@ -45,17 +45,13 @@ body {
     font-weight: 400;
 }
 
-/* .fixed-top.scrolled .nav-link {
+.fixed-top.scrolled .nav-link {
   color:#555;
 }
 
-.fixed-top.scrolled .nav-link .hover {
+.fixed-top.scrolled .nav-link:hover, .nav-link:focus, .nav-link.active {
   color:#000;
 }  
-
-.fixed-top.scrolled .nav-link .active {
-  color:#000;
-} */
 
 .back-to-top {
     cursor: pointer;
