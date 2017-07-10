@@ -201,9 +201,9 @@ h4 {
   margin: 5px;
 }
 
-#firstname, #lastname, #email, #phone, #comment {
+#fullname, #email, #comment {
     background-color: #fff;
-    color: rgba(0,0,0,.55);
+    color: rgba(0,0,0,.35);
     border-color: rgba(0,0,0,.15);
 }
 
