@@ -137,6 +137,13 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+	
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
+
+  border-radius: 25px;
+  border: none;
 }
 
 #services h4 {
