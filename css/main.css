@@ -230,21 +230,22 @@ footer ul {
     list-style: none;
 }
 
-footer .fa .fa-twitter .li:hover, .li:focus {
+.fa-twitter:hover, .fa-twitter:focus {
     color: #1da1f2;
 }
 
-footer .fa .fa-facebook .li:hover, .li:focus {
+.fa-facebook:hover, .fa-facebook:focus {
     color: #3664a2;
 }
 
-footer .fa .fa-linkedin .li:hover, .li:focus {
+.fa-linkedin:hover, .fa-linkedin:focus {
     color: #0077b5;
 }
 
-footer .fa .fa-google-plus .li:hover, .li:focus {
+.fa-google-plus:hover, .fa-google-plus:focus {
     color: #dc4a38;
 }
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width:			13px;
