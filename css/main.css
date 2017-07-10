@@ -230,19 +230,19 @@ footer ul {
     list-style: none;
 }
 
-.fa .fa-twitter .li:hover, .li:focus {
+footer .fa .fa-twitter .li:hover, .li:focus {
     color: #1da1f2;
 }
 
-.fa .fa-facebook .li:hover, .li:focus {
+footer .fa .fa-facebook .li:hover, .li:focus {
     color: #3664a2;
 }
 
-.fa .fa-linkedin .li:hover, .li:focus {
+footer .fa .fa-linkedin .li:hover, .li:focus {
     color: #0077b5;
 }
 
-.fa .fa-google-plus .li:hover, .li:focus {
+footer .fa .fa-google-plus .li:hover, .li:focus {
     color: #dc4a38;
 }
 /* Scrollbar */
