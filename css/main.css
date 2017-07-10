@@ -203,7 +203,7 @@ h4 {
 #firstname, #lastname, #email, #phone, #comment {
     background-color: #fff;
     color: rgba(0,0,0,.55);
-    border-color: rgba(0,0,0,.35);
+    border-color: rgba(0,0,0,.15);
 }
 
 /* Footer */
