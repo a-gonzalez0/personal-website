@@ -230,6 +230,11 @@ footer ul {
     list-style: none;
 }
 
+.fa-twitter, .fa-facebook, .fa-linkedin, .fa-google-plus {
+    color: #a6abb0;
+    font-size: 22px;
+}
+
 .fa-twitter:hover, .fa-twitter:focus {
     color: #1da1f2;
 }
