@@ -183,7 +183,6 @@ h4 {
 #contact {
     padding: 70px 0; 
     height: 100%;
-    background-color: #edf0f3;
 }
 
 #map{
@@ -203,7 +202,7 @@ h4 {
 
 #fullname, #email, #comment {
     background-color: #fff;
-    color: rgba(0,0,0,.15);
+    color: rgba(0,0,0,.55);
     border-color: rgba(0,0,0,.15);
 }
 
