@@ -31,17 +31,11 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
 }
 
-#myNavbar {
-  position: relative;
-}
+#myNavbar {position: relative;}
 
-.fixed-top.scrolled .navbar-inverse, .navbar-brand {
-  color:#555;
-}
-
-.fixed-top.scrolled .navbar-brand {
-  color:#555;
-}
+.fixed-top.scrolled .navbar-inverse, .navbar-brand, .nav-link {color:#555;}
+/* 
+.fixed-top.scrolled .navbar-brand {color:#555;} */
 
 .nav-item { 
     margin: 0 15px;
@@ -49,13 +43,11 @@ body {
     font-weight: 400;
 }
 
-.fixed-top.scrolled .nav-link {
+/* .fixed-top.scrolled .nav-link {
   color:#555;
-}
+} */
 
-.fixed-top.scrolled .nav-link:hover, .nav-link:focus, .nav-link.active {
-  color:#49c3c9;
-}  
+.fixed-top.scrolled .nav-link:hover, .nav-link:focus, .nav-link.active {color:#49c3c9;}  
 
 .back-to-top {
     cursor: pointer;
@@ -80,9 +72,7 @@ body {
   border: none;
 }
 
-.fa-chevron-up {
-  color: #888;
-}
+.fa-chevron-up {color: #888;}
 	
 h2 {
     font-size: 2.857rem;
@@ -93,13 +83,9 @@ h2 {
     color: rgba(0,0,0,.85);
 }
 
-h3 {
-    margin: 0 auto;
-}
+h3 {margin: 0 auto;}
 
-h4 {
-    text-align: center;
-}
+h4 {text-align: center;}
 
 .jumbotron-fluid {
     background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('../img/background.jpg');    
@@ -133,7 +119,7 @@ h4 {
 }
 
 #services img {
-/*     padding: 25px 0; */
+    padding: 25px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -168,17 +154,11 @@ h4 {
     background-color: #222;
 }
 
-#projects h2 {
-    padding-bottom: 50px;
-}
+#projects h2 {padding-bottom: 50px;}
 
-#projects .col-sm-4 {
-    padding: 0;
-}
+#projects .col-sm-4 {padding: 0;}
 
-#projects img {
-    padding: 5px;
-}
+#projects img {padding: 5px;}
 
 #contact {
     padding: 70px 0; 
@@ -192,13 +172,9 @@ h4 {
   position:relative;
 }
 
-#contact form {
-  padding-top: 50px;
-}
+#contact form {padding-top: 50px;}
 
-#contact .form-group {
-  margin: 5px;
-}
+#contact .form-group {margin: 5px;}
 
 #fullname, #email, #comment {
     background-color: #fff;
