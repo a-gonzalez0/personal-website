@@ -33,9 +33,9 @@ body {
 
 #myNavbar {position: relative;}
 
-.fixed-top.scrolled .navbar-inverse, .navbar-brand, .nav-link {color:#555;}
-/* 
-.fixed-top.scrolled .navbar-brand {color:#555;} */
+.fixed-top.scrolled .navbar-inverse {color:#555;}
+
+.fixed-top.scrolled .navbar-brand {color:#555;}
 
 .nav-item { 
     margin: 0 15px;
@@ -43,9 +43,9 @@ body {
     font-weight: 400;
 }
 
-/* .fixed-top.scrolled .nav-link {
+.fixed-top.scrolled .nav-link {
   color:#555;
-} */
+}
 
 .fixed-top.scrolled .nav-link:hover, .nav-link:focus, .nav-link.active {color:#49c3c9;}  
 
@@ -119,7 +119,6 @@ h4 {text-align: center;}
 }
 
 #services img {
-    padding: 25px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -138,7 +137,7 @@ h4 {text-align: center;}
     line-height: 2.25rem;
     font-weight: 500;
     color: rgba(0,0,0,.85);
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 
 #services p {
