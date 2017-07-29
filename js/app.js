@@ -4,7 +4,7 @@ $(document).ready(function(){
         var $nav = $('.fixed-top');
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
-	
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#back-to-top').fadeIn();
