@@ -172,26 +172,26 @@
 							<h5>SEND A MESSAGE</h5>
 							<div class="form-group">
 								<label for="inputName">YOUR NAME</label>
-								<input type="text" class="form-control" id="fullname" placeholder="Enter your name" required>
+								<input type="text" name="Name" class="form-control" id="fullname" placeholder="Enter your name" required>
 							</div>
 							<div class="form-group">
 								<label for="inputEmail">EMAIL ADDRESS</label> 
-								<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
+								<input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
 							</div>
 							<div class="form-group">
 								<label for="inputBudget">BUDGET</label>
-								<select class="form-control" id="budget" required>
+								<select name="Budget" class="form-control" id="budget" required>
 									<option value="null" selected disabled hidden style="color:#bbb">Select budget</option>
-									<option value="500">&nbsp;&nbsp;$500</option>
-									<option value="1000">$1000</option>
-									<option value="2000">$2000</option>
-									<option value="4000">$4000</option>
-									<option value="8000">$8000</option>
+									<option value="$500">&nbsp;&nbsp;$500</option>
+									<option value="$1000">$1000</option>
+									<option value="$2000">$2000</option>
+									<option value="$4000">$4000</option>
+									<option value="$8000">$8000</option>
 								</select>	
 							</div>
 							<div class="form-group">
 								<label for="inputTimeline">DEADLINE</label>
-								<select class="form-control" id="deadline" required>
+								<select name="Deadline" class="form-control" id="deadline" required>
 									<option value="null" selected disabled hidden style="color:#bbb">Select turnaround time</option>
 									<option value="ASAP">ASAP</option>
 									<option value="1 Month">1 month</option>
@@ -203,10 +203,10 @@
 							</div>
 							<div class="form-group">
 								<label for="inputTextarea">SHARE YOUR THOUGHTS</label>
-								<textarea class="form-control" id="comment" rows="3" placeholder="What can I help you with?" required></textarea>
+								<textarea class="form-control" id="comment" name="Comment" rows="3" placeholder="What can I help you with?" required></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-outline-cyan btn-rounded btn-padding">Submit</button>
+								<button type="submit" value="Send" class="btn btn-outline-cyan btn-rounded btn-padding">Submit</button>
 							</div>
 						</fieldset>
 					</form>
