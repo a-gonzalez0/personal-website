@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta name="description" content="Front End Developer">
     	<meta name="author" content="Alfredo Gonzalez">
 	
@@ -27,10 +27,10 @@
 		
 		<title>Front End Developer Portfolio</title>
 
-		<!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato' type='text/css'> -->
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato' type='text/css'>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 		<!-- Font Awesome Icons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -74,30 +74,26 @@
 				}
 			}
 		</script>
-		
+	    
         <!-- Fixed Navbar -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
-			<div class="container">
-				<a class="navbar-brand" href="#">
-					<img src="img/logo.svg" width="40" height="40" alt="Brand">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-transparent">
+			<button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav ml-auto">
-						<li><a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a></li>
-						<li><a class="nav-item nav-link" href="#services">SERVICES</a></li>
-						<li><a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a></li>
-						<li><a class="nav-item nav-link" href="#blog">BLOG</a></li>
-						<li><a class="nav-item nav-link" href="#testimonials">TESTIMONIALS</a></li>
-						<li><a class="nav-item nav-link" href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
+			<a class="navbar-brand mr-auto" href="#">
+				<img src="img/logo.svg" width="40" height="40" alt="Brand">
+			</a>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav ml-auto">
+					<li><a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a></li>
+					<li><a class="nav-item nav-link" href="#services">SERVICES</a></li>
+					<li><a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a></li>
+					<li><a class="nav-item nav-link" href="#testimonials">TESTIMONIALS</a></li>
+					<li><a class="nav-item nav-link" href="#contact">CONTACT</a></li>
+				</ul>
 			</div>
 		</nav>
-		
 		
 		<!-- Content -->
         <div class="jumbotron-fluid">
@@ -113,19 +109,19 @@
 				<h4 class="text-center">SERVICES</h4>
 				<h6 class="text-center font-italic">I can get you where you want to be</h6>
 				<div class="row">
-					<div class="col-xs-12 col-sm info-left text-center">
-						<div><i class="fa fa-code fa-5x cyan" aria-hidden="true"></i></div>
-						<h5>Developer</h5>
+					<div class="col-xs-12 col-sm">
+						<div class="info-left text-center"><i class="fa fa-code fa-5x cyan" aria-hidden="true"></i></div>
+						<h5 class="text-center">Developer</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et fringilla mauris. Integer libero orci, sagittis vel dolor vel, porttitor.</p>
 					</div>
-					<div class="col-xs-12 col-sm info-bottom text-center">
-						<div><i class="fa fa-pencil-square-o fa-5x cyan" aria-hidden="true"></i></div>
-						<h5>Designer</h5>
+					<div class="col-xs-12 col-sm">
+						<div class="info-left text-center"><i class="fa fa-pencil-square-o fa-5x cyan" aria-hidden="true"></i></div>
+						<h5 class="text-center">Designer</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et fringilla mauris. Integer libero orci, sagittis vel dolor vel, porttitor.</p>
 					</div>
-					<div class="col-xs-12 col-sm info-right text-center">
-						<div><i class="fa fa-university fa-5x cyan" aria-hidden="true"></i></div>
-						<h5>Instructor</h5>
+					<div class="col-xs-12 col-sm">
+						<div class="info-left text-center"><i class="fa fa-university fa-5x cyan" aria-hidden="true"></i></div>
+						<h5 class="text-center">Instructor</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et fringilla mauris. Integer libero orci, sagittis vel dolor vel, porttitor.</p>
 						<!-- <p>With responsive web design, the page layout adjust to the size and the capabilities of the device, creating the finest viewing experience.</p> -->
 					</div>
@@ -145,13 +141,6 @@
 	    	</div>
 		</div>
 		
-		<div id="blog" class="ml-auto mr-auto">
-			<div class="container">
-				<h4 class="text-center text-black">BLOG</h4>
-				<h6 class="text-center font-italic">Lorem ipsum dolor sit amet</h6>
-			</div>
-		</div>
-
 		<div id="testimonials" class="carousel slide" data-ride="carousel">
 			<h4 class="text-center">TESTIMONIALS</h4>
 			<h6 class="text-center font-italic">What they say</h6>
@@ -183,7 +172,7 @@
 				<img src="..." alt="...">
 				<div class="carousel-caption d-none d-md-block">
 					<h3>...</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut semper orci. Pellentesque placerat erat ac lacus facilisis, a sodales dui tempus. Etiam ac bibendum lectus, sed ultrices turpis. Integer et tempor mi, ac maximus nibh. Morbi convallis turpis in leo consequat, vel consequat orci placerat. Nam quis tellus non mauris hendrerit lobortis quis ornare erat. Morbi at nibh metus. Duis ac lorem enim. Suspendisse molestie orci et nisi lacinia ultrices sit amet sit amet purus. Suspendisse elementum accumsan nibh eu pulvinar.</p>
+					<p>...</p>
 				</div>
 			</div>
 		</div>
@@ -193,7 +182,7 @@
 			<h6 class="text-center font-italic">How to reach me</h6>
 			<div id="map"></div>
 			<div class="container row">
-				<div class="col-xs-12 col-sm-5 ml-sm-auto">
+				<div class="col-xs-12 col-sm-5 offset-sm-2">
 					<form action="mailto:a_gonzalez0@yahoo.com?subject=Quote%20Inquiry" enctype="text/plain" method="post" autocomplete="off">
 						<fieldset>
 							<h5>SEND A MESSAGE</h5>
@@ -238,7 +227,7 @@
 						</fieldset>
 					</form>
 				</div>
-				<div class="col-xs-12 col-sm-3 ml-sm-auto">
+				<div class="col-xs-12 col-sm-3 offset-sm-2">
 					<form>
 						<fieldset>
 							<h5>CONTACT INFO</h5>
@@ -269,11 +258,10 @@
 		
 		<a id="back-to-top" href="#" class="btn btn-secondary btn-circle btn-lg back-to-top" role="button"><i class="fa fa-chevron-up text-white" aria-hidden="true"></i></a>
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDPyhqun5lRzn0sc2rlB_ctuGgii8hAG4&callback=myMap"></script>

@@ -212,23 +212,6 @@ h2 {
 
 #portfolio img {padding: 5px;}
 
-#blog {
-    padding: 70px 0;
-    height: 100%;
-}
-
-#blog h4 {
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-weight: 500;
-    color: rgba(0,0,0,.85);
-}
-
-#blog h6 {
-    padding-bottom: 50px;
-    color: rgba(0,0,0,.55);
-}
-
 #testimonials {
     padding: 70px 0;
     height: 100%;
@@ -288,7 +271,7 @@ h2 {
 }
 
 address {
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 

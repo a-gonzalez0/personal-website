@@ -51,20 +51,18 @@ $(document).ready(function(){
     });
     sr.reveal('.info-left', {
         duration: 2000,
-        origin:'left',
-        distance:'100px',
-        viewFactor: 0.2
+        origin:'bottom'
     });
     sr.reveal('.info-right', {
         duration: 2000,
         origin:'right',
-        distance:'100px',
+        distance:'300px',
         viewFactor: 0.2
     });
     sr.reveal('.info-bottom', {
         duration: 2000,
         origin:'bottom',
-        distance:'100px',
+        distance:'300px',
         viewFactor: 0.2
     });
     
