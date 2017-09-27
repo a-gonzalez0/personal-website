@@ -51,7 +51,10 @@ $(document).ready(function(){
     });
     sr.reveal('.info-left', {
         duration: 2000,
-        origin:'bottom'
+        origin:'left',
+        distance:'300px',
+        viewFactor: 0.2: 2000,
+        origin:'left'
     });
     sr.reveal('.info-right', {
         duration: 2000,
