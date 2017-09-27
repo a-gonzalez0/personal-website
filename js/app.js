@@ -49,12 +49,11 @@ $(document).ready(function(){
         duration: 2000,
         origin:'bottom'
     });
-    sr.reveal('.info-left', {
+    sr.reveal('.info-right', {
         duration: 2000,
         origin:'left',
         distance:'300px',
-        viewFactor: 0.2: 2000,
-        origin:'left'
+        viewFactor: 0.2
     });
     sr.reveal('.info-right', {
         duration: 2000,
