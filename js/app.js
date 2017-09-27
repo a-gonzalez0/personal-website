@@ -49,7 +49,7 @@ $(document).ready(function(){
         duration: 2000,
         origin:'bottom'
     });
-    sr.reveal('.info-right', {
+    sr.reveal('.info-left', {
         duration: 2000,
         origin:'left',
         distance:'300px',
