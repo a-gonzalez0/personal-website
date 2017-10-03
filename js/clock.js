@@ -26,7 +26,6 @@
 
     function checkDate() {
     	var d = new Date();
-        d = d < 10 ? d.slice(-1) : d;
     	document.getElementById("date").innerHTML = d.toDateString();
     }
 
