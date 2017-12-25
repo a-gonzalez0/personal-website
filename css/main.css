@@ -99,9 +99,9 @@ a.bg-transparent:focus,a.bg-transparent:hover{background-color: rgba(0,0,0,0)!im
   font-size: 1.125rem;
   line-height: 1.33;
   	
-  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
-  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
-  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.60);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.60);
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.60);
 
   border-radius: 25px;
   border: none;
