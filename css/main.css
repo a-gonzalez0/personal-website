@@ -326,7 +326,7 @@ footer ul {
     font-size: 1.375rem;
 }
 
-.fa-twitter:hover, .fa-twitter:focus, .fa-facebook:hover, .fa-facebook:focus, .fa-linkedin:hover, .fa-linkedin:focus,  .fa-google-plus:hover, .fa-google-plus:focus {color: #31c5f0;}
+.fa-twitter:hover, .fa-twitter:focus, .fa-facebook-f:hover, .fa-facebook-f:focus, .fa-linkedin-in:hover, .fa-linkedin-in:focus,  .fa-youtube:hover, .fa-youtube:focus {color: #31c5f0;}
 
 ::selection {
   background: #31c5f0; /* WebKit/Blink Browsers */
