@@ -292,11 +292,11 @@ address {
     font-weight: 300;
 }
 
-@media (max-width: 479px){
+/* @media (max-width: 479px){
     address {
         margin: 0 auto;
     }
-}
+} */
 
 /* Footer */
 footer {
