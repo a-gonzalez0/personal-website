@@ -17,6 +17,10 @@ body {
   background-color: #edf0f3;
 }
 
+h1 {
+  font-family: Open-Sans;
+}
+
 /* Header */
 .fixed-top.scrolled {
   background: rgba(245, 245, 245, 0.9) !important;
