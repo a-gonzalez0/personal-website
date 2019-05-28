@@ -210,6 +210,9 @@ h2 {
 
 #portfolio .col-sm-4 {padding: 0;}
 
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
 #portfolio img {padding: 5px;}
 
 #blog {
