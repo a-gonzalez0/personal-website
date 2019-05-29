@@ -117,7 +117,7 @@ h2 {
 }
 
 .jumbotron-fluid {
-    background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg');    
+    background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://github.com/a-gonzalez0/personal-website/blob/gh-pages/img/background.jpg');    
     background-attachment: fixed;
     height: 100vh;
     padding: 50px 0;
