@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
     sr.reveal('.showcase-btn', {
         duration: 2000,
-        delay: 2000,
+        delay: 1500,
         origin:'bottom'
     });
     sr.reveal('#testimonial div', {
@@ -62,9 +62,9 @@ $(document).ready(function(){
         viewFactor: 0.2
     });
     sr.reveal('.info-bottom', {
-        duration: 2000,
+        duration: 1500,
         origin:'bottom',
-        distance:'300px',
+        distance:'150px',
         viewFactor: 0.2
     });
     
