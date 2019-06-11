@@ -4,23 +4,23 @@
     }
 
     function startTime() {
-        var today = new Date(),
+        let today = new Date(),
             h = checkTime(today.getHours()),
             m = checkTime(today.getMinutes()),
             s = checkTime(today.getSeconds());
         h =  h % 12 || 12;
-        var meridiem = h < 12 ? 'AM' : 'PM';
+        let meridiem = h < 12 ? 'AM' : 'PM';
         document.getElementById('time').innerHTML = h + ":" + m + ":" + s + " " + meridiem;
         t = setTimeout(function () {
             startTime()
         }, 500);
     }
 
-    function checkDate() {
-    	var d = new Date();
-    	document.getElementById("date").innerHTML = d.toDateString();
-    }
+//     function checkDate() {
+//     	var d = new Date();
+//     	document.getElementById("date").innerHTML = d.toDateString();
+//     }
 
     startTime();
-    checkDate();
+    //checkDate();
 })();
