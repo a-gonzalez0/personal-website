@@ -9,20 +9,21 @@
             m = checkTime(today.getMinutes()),
             s = checkTime(today.getSeconds());
         h =  h % 12 || 12;
-        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+        var meridiem = h < 12 ? 'AM' : 'PM';
+        document.getElementById('time').innerHTML = h + ":" + m + ":" + s + " " + meridiem;
         t = setTimeout(function () {
             startTime()
         }, 500);
     }
 
-    function checkMeridiem() {
-    	var today = new Date(),
-            h = checkTime(today.getHours()),
-            m = checkTime(today.getMinutes()),
-            s = checkTime(today.getSeconds());
-        var meridiem = h < 12 ? 'AM' : 'PM';
-        document.getElementById("meridiem").innerHTML = meridiem;
-    }
+//     function checkMeridiem() {
+//     	var today = new Date(),
+//             h = checkTime(today.getHours()),
+//             m = checkTime(today.getMinutes()),
+//             s = checkTime(today.getSeconds());
+//         var meridiem = h < 12 ? 'AM' : 'PM';
+//         document.getElementById("meridiem").innerHTML = meridiem;
+//     }
 
     function checkDate() {
     	var d = new Date();
@@ -30,6 +31,6 @@
     }
 
     startTime();
-    checkMeridiem();
+    //checkMeridiem();
     checkDate();
 })();
