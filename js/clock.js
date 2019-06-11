@@ -9,28 +9,46 @@
             m = checkTime(today.getMinutes()),
             s = checkTime(today.getSeconds());
         h =  h % 12 || 12;
-        var meridiem = h < 12 ? 'AM' : 'PM';
-        document.getElementById('time').innerHTML = h + ":" + m + ":" + s + " " + meridiem;
+        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
         t = setTimeout(function () {
             startTime()
         }, 500);
     }
 
-//     function checkMeridiem() {
-//     	var today = new Date(),
-//             h = checkTime(today.getHours()),
-//             m = checkTime(today.getMinutes()),
-//             s = checkTime(today.getSeconds());
-//         var meridiem = h < 12 ? 'AM' : 'PM';
-//         document.getElementById("meridiem").innerHTML = meridiem;
-//     }
+    function checkMeridiem() {
+    	var today = new Date(),
+            h = checkTime(today.getHours()),
+            m = checkTime(today.getMinutes()),
+            s = checkTime(today.getSeconds());
+        var meridiem = h < 12 ? 'AM' : 'PM';
+        document.getElementById("meridiem").innerHTML = meridiem;
+    }
 
     function checkDate() {
     	var d = new Date();
     	document.getElementById("date").innerHTML = d.toDateString();
     }
 
+    function setBgGreet() {
+        let today = new Date(),
+            h = today.getHours();
+        if (h < 12) { 
+            document.body.style.backgroundImage = "url('../img/morning.jpg')";
+            greet.textContent = "Good Morning";
+        }
+        else if (h < 18) { 
+            document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+            greet.textContent = "Good Afternoon";
+        }
+        else { 
+            document.body.style.backgroundImage = "url('../img/evening.jpg')";
+            greet.textContent = "Good Evening";
+            document.body.style.color = "white";
+        }
+    }
+    
     startTime();
-    //checkMeridiem();
+    checkMeridiem();
     checkDate();
+    setBgGreet();
 })();
