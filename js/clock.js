@@ -22,6 +22,5 @@
     }
 
     startTime();
-    checkMeridiem();
     checkDate();
 })();
