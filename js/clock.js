@@ -8,6 +8,7 @@
             h = checkTime(today.getHours()),
             m = checkTime(today.getMinutes()),
             s = checkTime(today.getSeconds());
+        var meridiem = h < 12 ? 'AM' : 'PM';
         h =  h % 12 || 12;
         document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
         t = setTimeout(function () {
@@ -15,7 +16,6 @@
         }, 500);
         
         // Set AM or PM
-        var meridiem = h < 12 ? 'AM' : 'PM';
         document.getElementById("meridiem").innerHTML = meridiem;
     }
 
