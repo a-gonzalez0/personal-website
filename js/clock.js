@@ -32,7 +32,7 @@
             greet.textContent = "Good Morning";
         }
         else if (h < 18) { 
-            document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+            document.body.style.backgroundImage = "url('../img/afternoon.png')";
             greet.textContent = "Good Afternoon";
         }
         else { 
