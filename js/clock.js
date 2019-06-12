@@ -16,10 +16,10 @@
         }, 500);
     }
 
-    function startDate() {
-    	var d = new Date();
-    	document.getElementById("date").innerHTML = d.toDateString();
-    }
+//     function startDate() {
+//     	var d = new Date();
+//     	document.getElementById("date").innerHTML = d.toDateString();
+//     }
 
     function setBgGreet() {
         let today = new Date(),
@@ -40,6 +40,6 @@
     }
     
     startTime();
-    startDate();
+//     startDate();
     setBgGreet();
 })();
