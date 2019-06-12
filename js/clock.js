@@ -10,13 +10,10 @@
             s = checkTime(today.getSeconds());
         var meridiem = h < 12 ? 'AM' : 'PM';
         h =  h % 12 || 12;
-        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+        document.getElementById('time').innerHTML = h + ":" + m + ":" + s + " " + meridiem;
         t = setTimeout(function () {
             startTime()
         }, 500);
-        
-        // Set AM or PM
-        document.getElementById("meridiem").innerHTML = meridiem;
     }
 
     function startDate() {
