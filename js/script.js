@@ -68,6 +68,20 @@ $(document).ready(function(){
         viewFactor: 0.2
     });
     
+    sr.reveal('.info-bottom-2', {
+        duration: 2000,
+        origin:'bottom',
+        distance:'150px',
+        viewFactor: 0.2
+    });
+
+    sr.reveal('.info-bottom-3', {
+        duration: 2500,
+        origin:'bottom',
+        distance:'150px',
+        viewFactor: 0.2
+    });
+	
     // Add scrollspy to <body>
     $('body').scrollspy({ target: '#myNavbar' })  
     
