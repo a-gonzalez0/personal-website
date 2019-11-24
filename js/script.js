@@ -62,21 +62,21 @@ $(document).ready(function(){
         viewFactor: 0.2
     });
     sr.reveal('.info-bottom', {
-        duration: 1500,
+        duration: 2000,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.2
     });
     
     sr.reveal('.info-bottom-2', {
-        duration: 3000,
+        duration: 2500,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.2
     });
 
     sr.reveal('.info-bottom-3', {
-        duration: 4500,
+        duration: 3000,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.2
