@@ -62,7 +62,7 @@ $(document).ready(function(){
         viewFactor: 0.2
     });
     sr.reveal('.info-bottom', {
-        duration: 1000,
+        duration: 2000,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.1
@@ -72,14 +72,16 @@ $(document).ready(function(){
         duration: 2000,
         origin:'bottom',
         distance:'150px',
-        viewFactor: 0.1
+        viewFactor: 0.1,
+	delay: 500
     });
 
     sr.reveal('.info-bottom-3', {
-        duration: 3000,
+        duration: 2000,
         origin:'bottom',
         distance:'150px',
-        viewFactor: 0.1
+        viewFactor: 0.1, 
+	delay: 1000
     });
 	
     // Add scrollspy to <body>
