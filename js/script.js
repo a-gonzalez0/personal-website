@@ -65,21 +65,21 @@ $(document).ready(function(){
         duration: 2000,
         origin:'bottom',
         distance:'150px',
-        viewFactor: 0.2
+        viewFactor: 0.1
     });
     
     sr.reveal('.info-bottom-2', {
         duration: 3000,
         origin:'bottom',
         distance:'150px',
-        viewFactor: 0.2
+        viewFactor: 0.1
     });
 
     sr.reveal('.info-bottom-3', {
         duration: 4000,
         origin:'bottom',
         distance:'150px',
-        viewFactor: 0.2
+        viewFactor: 0.1
     });
 	
     // Add scrollspy to <body>
