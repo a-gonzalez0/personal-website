@@ -69,14 +69,14 @@ $(document).ready(function(){
     });
     
     sr.reveal('.info-bottom-2', {
-        duration: 2000,
+        duration: 3000,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.2
     });
 
     sr.reveal('.info-bottom-3', {
-        duration: 2500,
+        duration: 4500,
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.2
