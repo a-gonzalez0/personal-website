@@ -73,7 +73,7 @@ $(document).ready(function(){
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.1,
-	delay: 200
+	delay: 150
     });
 
     sr.reveal('.info-bottom-3', {
@@ -81,7 +81,7 @@ $(document).ready(function(){
         origin:'bottom',
         distance:'150px',
         viewFactor: 0.1, 
-	delay: 400
+	delay: 300
     });
 	
     // Add scrollspy to <body>
