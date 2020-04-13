@@ -33,7 +33,7 @@
 			<!-- Font Awesome Icons -->
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 			
-	    		<link rel="stylesheet" href="css/main.css">
+	    <link rel="stylesheet" href="css/main.css">
 
 			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
@@ -41,51 +41,51 @@
 				<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
 
-	    		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78152932-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78152932-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-78152932-2');
-</script>
+        gtag('config', 'UA-78152932-2');
+      </script>
 	    
 			<style>
 				.sr .scrollReveal { visibility: hidden; }
 				.fancy-slider-info {
-	text-align: center;
-	margin-bottom: 0px ;
-	line-height: 40px ;
-	color: #fff;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 14px ;
-	letter-spacing: 2px;
-	display: inline-block;
-	position: relative;
-}
+          text-align: center;
+          margin-bottom: 0px ;
+          line-height: 40px ;
+          color: #fff;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 14px ;
+          letter-spacing: 2px;
+          display: inline-block;
+          position: relative;
+        }
 
-.fancy-slider-info:before,
-.fancy-slider-info:after {
-  content: "";
-  height: 5px;
-  border-top: 1px dotted #efefef;
-  top: 19px;
-  border-width: 2px;
-  width: 135px;
-  position: absolute;
-}
+        .fancy-slider-info:before,
+        .fancy-slider-info:after {
+          content: "";
+          height: 5px;
+          border-top: 1px dotted #efefef;
+          top: 19px;
+          border-width: 2px;
+          width: 135px;
+          position: absolute;
+        }
 
-.fancy-slider-info:before {
-  right: 100%;
-  margin-right: 15px;
-}
+        .fancy-slider-info:before {
+          right: 100%;
+          margin-right: 15px;
+        }
 
-.fancy-slider-info:after {
-  left: 100%;
-  margin-left: 15px;
-}
+        .fancy-slider-info:after {
+          left: 100%;
+          margin-left: 15px;
+        }
 			</style>   
     </head>
   
@@ -253,25 +253,24 @@
 </label>
 	<input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
 </div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+<div class="form-row">
+  <div class="col">
+    <input type="text" name="FName" class="form-control" id="fullname" placeholder="First name" required>
+  </div>
+  <div class="col">
+    <input type="text" name="LName" class="form-control" id="fullname" placeholder="Last name" required>
+  </div>
 </div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE4">SHARE YOUR THOUGHTS  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="MMERGE4" class="required" id="mce-MMERGE4">
+<div class="form-group">
+  <label for="inputTextarea">SHARE YOUR THOUGHTS</label>
+  <textarea class="form-control" id="comment" name="Comment" rows="6" placeholder="What can I help you with?" required></textarea>
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50145527020cebfdb26b13fc2_aaa588c0f3" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
