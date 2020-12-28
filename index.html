@@ -304,6 +304,10 @@
             };
             var map = new google.maps.Map(mapCanvas, mapOptions);
         }
+				$(document).scroll(function () {
+					var $nav = $('.fixed-top');
+					$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+				});
     </script>
 
     <script async defer
