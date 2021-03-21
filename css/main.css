@@ -152,8 +152,9 @@ h2 {
     height: 100%;
 }
 
-#services card {
+#services card, card-body {
 	background-color: #edf0f3;
+	border: none;
 }
 
 #services card:hover {
