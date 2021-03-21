@@ -152,12 +152,6 @@ h2 {
     height: 100%;
 }
 
-#services:hover {
-  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
-  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
-  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
-}
-
 #services img {
     display: block;
     margin-left: auto;
