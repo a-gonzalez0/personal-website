@@ -155,6 +155,7 @@ h2 {
 #services card, card-body {
 	background-color: #edf0f3;
 	border: none;
+	border-radius: 0;
 }
 
 #services card:hover {
