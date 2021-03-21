@@ -152,13 +152,12 @@ h2 {
     height: 100%;
 }
 
-#services card, card-body {
+#services .card {
 	background-color: #edf0f3;
 	border: none;
-	border-radius: 0;
 }
 
-#services card:hover {
+#services .card:hover {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
   -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
   box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.40);
