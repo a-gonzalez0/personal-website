@@ -57,46 +57,7 @@
 
       gtag('config', 'UA-78152932-2');
   </script>
-
-<!--   <style>
-      .sr .scrollReveal {
-          visibility: hidden;
-      }
-
-      .fancy-slider-info {
-          text-align: center;
-          margin-bottom: 0px;
-          line-height: 40px;
-          color: #fff;
-          font-weight: 700;
-          text-transform: uppercase;
-          font-size: 14px;
-          letter-spacing: 2px;
-          display: inline-block;
-          position: relative;
-      }
-
-      .fancy-slider-info:before,
-      .fancy-slider-info:after {
-          content: "";
-          height: 5px;
-          border-top: 1px dotted #efefef;
-          top: 19px;
-          border-width: 2px;
-          width: 135px;
-          position: absolute;
-      }
-
-      .fancy-slider-info:before {
-          right: 100%;
-          margin-right: 15px;
-      }
-
-      .fancy-slider-info:after {
-          left: 100%;
-          margin-left: 15px;
-      }
-  </style> -->
+	
 	<style>
 		.navbar .navbar-collapse {
 			text-align: center;
@@ -108,33 +69,31 @@
     <!-- Fixed Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.svg" width="40" height="40" alt="Brand"> AVAS Media
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+					<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+						<a href="/" class="navbar-brand d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none branding">
+							<img src="img/logo.svg" width="40" height="40" alt="Brand" /> AVAS Media
+						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
                 aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+						
+						<div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+							<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+								<li><a href="#home" class="nav-link px-2 link-secondary active">Home</a></li>
+								<li><a href="#services" class="nav-link px-2 link-dark">Services</a></li>
+								<li><a href="#portfolio" class="nav-link px-2 link-dark">Portfolio</a></li>
+								<li><a href="#testimonials" class="nav-link px-2 link-dark">Testimonials</a></li>
+								<li><a href="#contact" class="nav-link px-2 link-dark">Contact</a></li>
+							</ul>
+						</div>
 
-            <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+						<div class="col-md-3 text-end">
+							<i class="fab fa-instagram"></i>
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-twitter"></i>
+						</div>
+					</header>
         </div>
     </nav>
 
