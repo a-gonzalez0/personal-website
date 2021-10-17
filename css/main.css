@@ -55,6 +55,10 @@ a.bg-transparent:focus,a.bg-transparent:hover{background-color: rgba(0,0,0,0)!im
     font-weight: 400;
 }
 
+.navbar-brand {
+	font-family: 'Rampart One', cursive;
+}
+
 .fixed-top.scrolled .nav-link {
   color:#555;
 }
