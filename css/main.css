@@ -61,7 +61,7 @@ a.bg-transparent:focus,a.bg-transparent:hover{background-color: rgba(0,0,0,0)!im
 
 .branding {
   font-family: 'Rampart One', cursive;
-	font-size: 26px;
+  font-size: 22px;
 }
 
 .fixed-top.scrolled .nav-link {
