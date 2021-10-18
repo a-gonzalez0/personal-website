@@ -54,10 +54,6 @@ body {
   padding: 0 .75rem;
 }
 
-.bg-dark {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
 .bg-transparent{background-color: rgba(0,0,0,0)!important}
 a.bg-transparent:focus,a.bg-transparent:hover{background-color: rgba(0,0,0,0)!important}
 
