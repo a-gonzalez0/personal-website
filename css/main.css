@@ -30,6 +30,21 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
 }
 
+.branding {
+  font-family: 'Rampart One', cursive;
+  font-size: 22px;
+}
+
+.nav {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .branding {
+    text-align: center;
+  }
+}
+
 .fa-facebook-f, .fa-twitter, .fa-linkedin, .fa-youtube {
   font-size: 20px;
   padding: 0 .75rem;
@@ -57,11 +72,6 @@ a.bg-transparent:focus,a.bg-transparent:hover{background-color: rgba(0,0,0,0)!im
     margin: 0 15px;
     font-size: .8125rem;
     font-weight: 400;
-}
-
-.branding {
-  font-family: 'Rampart One', cursive;
-  font-size: 22px;
 }
 
 .fixed-top.scrolled .nav-link {
