@@ -51,10 +51,8 @@
     <![endif]-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-78152932-2"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78152932-2"></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -332,6 +330,19 @@
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDPyhqun5lRzn0sc2rlB_ctuGgii8hAG4&callback=myMap"
     ></script>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-92px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
     <!--     <script src="js/script.js"></script> -->
   </body>
 </html>
