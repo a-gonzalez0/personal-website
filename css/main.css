@@ -161,27 +161,6 @@ h2 {
 }
 
 /* Pages */
-#home {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#home h3 {
-    font-family: proxima-nova, sans-serif;
-    font-size: 1.875rem;
-    color: #ddd;
-}
-
-@media (max-width: 479px) {
-  #home h3 {
-    font-size: 1.5625rem;
-  }
-}
-
 #services {
     padding: 70px 0;
     height: 100%;
