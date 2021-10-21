@@ -102,21 +102,21 @@ a.transparent:focus,a.transparent:hover{
     display:none;
 }
 
-.btn-secondary{
+.btn-outline-custom{
     color:#292b2c;
     background-color:#31c5f0;
     border-color:#00B8D4;
 }
-.btn-secondary:hover{
+.btn-outline-custom:hover{
     color:#292b2c;
     background-color:#00B8D4;
     border-color:#00B8D4;
 }
-.btn-secondary.focus,.btn-secondary:focus{
+.btn-outline-custom.focus,.btn-outline-custom:focus{
     -webkit-box-shadow:0 0 0 2px rgba(204,204,204,.5);
     box-shadow:0 0 0 2px rgba(204,204,204,.5)
 }
-.btn-secondary.active,.btn-secondary:active,.show>.btn-secondary.dropdown-toggle{
+.btn-outline-custom.active,.btn-outline-custom:active,.show>.btn-outline-custom.dropdown-toggle{
     color:#292b2c;
     background-color:#31c5f0;
     background-image:none;
