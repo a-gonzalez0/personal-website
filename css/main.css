@@ -110,7 +110,7 @@ a.transparent:focus,a.transparent:hover{
   border-color: #31c5f0;
 }
 .btn-outline-custom:hover {
-  color: #fff;
+  color: #000;
   background-color: #00B8D4;
   border-color: #00B8D4;
 }
@@ -118,7 +118,7 @@ a.transparent:focus,a.transparent:hover{
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
 .btn-check:checked + .btn-outline-custom, .btn-check:active + .btn-outline-custom, .btn-outline-custom:active, .btn-outline-custom.active, .btn-outline-custom.dropdown-toggle.show {
-  color: #fff;
+  color: #000;
   background-color: #31c5f0;
   border-color: #31c5f0;
 }
