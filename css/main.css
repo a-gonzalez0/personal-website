@@ -106,7 +106,7 @@ a.transparent:focus,a.transparent:hover{
 
 /* Custom Button Style */
 .btn-outline-custom {
-  color: #31c5f0;
+  color: #fff;
   border-color: #31c5f0;
 }
 .btn-outline-custom:hover {
