@@ -15,69 +15,36 @@ body {
   background-color: #222;
 }
 
+/* Navigation Section */
 #navbar {
   background-color: #212121;
   transition: top 0.3s;
 }
-
 .branding {
   font-family: 'Rampart One', cursive;
   font-size: 22px;
   margin: 0 auto;
 }
-
 .nav-link {
   font-family: 'Tinos', serif;
   font-size: 1rem;
 }
-
 .nav-item { 
   margin: 0 15px;
   font-weight: 400;
 }
 
+/* Home Section */
 .hero {
   background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), 
     rgba(46, 48, 56, 0.60)), 
     url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg'); 
   background-size: cover;
 }
-
 .fa-facebook-f, .fa-twitter, .fa-linkedin, .fa-youtube {
   font-size: 1rem;
 }
-/* 
-.text-custom {color:#31c5f0 !important;} */
-
-/* .transparent {
-	background-color: rgba(0,0,0,0.4)!important
-}
-a.transparent:focus,a.transparent:hover{
-	background-color: rgba(0,0,0,0.4)!important
-} */
-
-/*  #myNavbar {position: relative;} 
-
-.fixed-top.scrolled .navbar-inverse {color:#555;}
-
-.fixed-top.scrolled .navbar-brand {color:#555;}
-
-.fixed-top.scrolled .fa-bars {color: #31c5f0;}
-
-.fixed-top.scrolled .custom-toggler.navbar-toggler {
-    border-color: #31c5f0;
-}
-.fixed-top.scrolled .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='https://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(85, 85, 85, .7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
-
-/* .fixed-top.scrolled .nav-link {
-  color:#555;
-}
-
-.fixed-top.scrolled .nav-link:hover {color:#31c5f0;}  
-.fixed-top.scrolled .nav-link:focus {color:#31c5f0;} 
-.fixed-top.scrolled .nav-link.active {color:#31c5f0;} */
+.text-custom {color:#31c5f0 !important;} /* Map marker */
 
 .back-to-top {
     cursor: pointer;
