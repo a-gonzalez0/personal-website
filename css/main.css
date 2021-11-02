@@ -154,11 +154,6 @@ h2 {
     color: rgba(0,0,0,.85);
 }
 
-.hero {
-  background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg') no-repeat center; 
-  background-size: cover;
-}
-
 /* Pages */
 #services {
     padding: 70px 0;
