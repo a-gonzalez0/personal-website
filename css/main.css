@@ -154,12 +154,9 @@ h2 {
     color: rgba(0,0,0,.85);
 }
 
-.jumbotron-fluid {
-    background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg');    
-    background-attachment: fixed;
-    height: 100vh;
-    background-size: cover;
-    overflow: hidden;
+.hero {
+  background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg') no-repeat center; 
+  background-size: cover;
 }
 
 /* Pages */
