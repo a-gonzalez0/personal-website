@@ -96,6 +96,11 @@ a.transparent:focus,a.transparent:hover{
 .fixed-top.scrolled .nav-link:focus {color:#31c5f0;} 
 .fixed-top.scrolled .nav-link.active {color:#31c5f0;}
 
+.hero {
+	background-image: -webkit-linear-gradient(rgba(46, 48, 56, 0.60), rgba(46, 48, 56, 0.60)), url('https://raw.githubusercontent.com/a-gonzalez0/personal-website/gh-pages/img/background.jpg'); 
+	background-size: cover;
+}
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
