@@ -58,12 +58,15 @@ body {
 .btn-outline-custom {
   color: #fff;
   border-color: #31c5f0;
+  border-radius: 0;
 }
+
 .btn-outline-custom:hover {
   color: #000;
   background-color: #31c5f0;
   border-color: #31c5f0;
 }
+
 .btn-check:focus + .btn-outline-custom, .btn-outline-custom:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
@@ -72,9 +75,11 @@ body {
   background-color: #31c5f0;
   border-color: #31c5f0;
 }
+
 .btn-check:checked + .btn-outline-custom:focus, .btn-check:active + .btn-outline-custom:focus, .btn-outline-custom:active:focus, .btn-outline-custom.active:focus, .btn-outline-custom.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
 }
+
 .btn-outline-custom:disabled, .btn-outline-custom.disabled {
   color: #0d6efd;
   background-color: transparent;
