@@ -57,17 +57,14 @@ body {
 /* Custom Button Style */
 .btn-outline-custom {
   color: #fff;
-/*   border-color: #31c5f0; */
-  border: 2px solid #f06a31;
+  border: 2px solid #31c5f0;
   border-radius: 0;
 }
 
 .btn-outline-custom:hover {
   color: #fff;
-/*   background-color: #31c5f0; */
-  background-color: #f06a31;
-/*   border-color: #31c5f0; */
-  border-color: #f06a31;
+  background-color: #31c5f0;
+  border-color: #31c5f0;
 }
 
 .btn-check:focus + .btn-outline-custom, .btn-outline-custom:focus {
@@ -75,10 +72,8 @@ body {
 }
 .btn-check:checked + .btn-outline-custom, .btn-check:active + .btn-outline-custom, .btn-outline-custom:active, .btn-outline-custom.active, .btn-outline-custom.dropdown-toggle.show {
   color: #000;
-  background-color: #f06a31;
-  border-color: #f06a31;
-/*   background-color: #31c5f0;
-  border-color: #31c5f0; */
+  background-color: #31c5f0;
+  border-color: #31c5f0;
 }
 
 .btn-check:checked + .btn-outline-custom:focus, .btn-check:active + .btn-outline-custom:focus, .btn-outline-custom:active:focus, .btn-outline-custom.active:focus, .btn-outline-custom.dropdown-toggle.show:focus {
