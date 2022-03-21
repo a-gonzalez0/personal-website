@@ -62,7 +62,7 @@ body {
 }
 
 .btn-outline-custom:hover {
-  color: #fff;
+  color: #000;
   background-color: #31c5f0;
   border-color: #31c5f0;
 }
