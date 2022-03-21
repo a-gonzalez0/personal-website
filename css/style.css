@@ -58,12 +58,12 @@ body {
 .btn-outline-custom {
   color: #fff;
 /*   border-color: #31c5f0; */
-  border-color: #f06a31;
+  border: 2px solid #f06a31;
   border-radius: 0;
 }
 
 .btn-outline-custom:hover {
-  color: #000;
+  color: #fff;
 /*   background-color: #31c5f0; */
   background-color: #f06a31;
 /*   border-color: #31c5f0; */
