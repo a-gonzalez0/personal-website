@@ -5,7 +5,8 @@ html {
 
 body {
   padding: 0px;
-  margin: 0px 0px 200px; /* Margin bottom must be same as footer height to have sticky footer */
+/*   margin: 0px 0px 200px;  Margin bottom must be same as footer height to have sticky footer */
+  margin: 0px;
   font-family: 'Roboto', sans-serif;  
   font-style: normal;
   font-weight: 400;
